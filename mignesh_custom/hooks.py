@@ -206,6 +206,8 @@ fixtures=[
     "Loading Request",
     "Document Naming Rule",
     "UOM",
+    "Item",
+    "Item Group",
     "Location",
     "Packing List",
     {"dt":"Workspace","filters":[

@@ -46,17 +46,6 @@
  {
   "docstatus": 0,
   "doctype": "Client Script",
-  "dt": "Sales Order",
-  "enabled": 1,
-  "modified": "2023-02-27 10:42:04.836015",
-  "module": "Mignesh",
-  "name": "Fetch Field Value",
-  "script": "frappe.ui.form.on('Sales Order', {\n after_save:function(frm){\n\t    frm.refresh()\n\t    frm.reload_doc()\n    }\n})\n    ",
-  "view": "Form"
- },
- {
-  "docstatus": 0,
-  "doctype": "Client Script",
   "dt": "Purchase Invoice",
   "enabled": 1,
   "modified": "2023-02-27 10:41:32.050678",
@@ -70,10 +59,32 @@
   "doctype": "Client Script",
   "dt": "Purchase Order",
   "enabled": 1,
-  "modified": "2023-02-27 10:42:21.339463",
+  "modified": "2023-02-27 17:42:33.020952",
+  "module": "Mignesh",
+  "name": "Fetch Sales Order",
+  "script": "frappe.ui.form.on('Purchase Order', {\nrefresh(frm) {\n\n\t   var name= frm.doc.name;\n\t   var location= frm.doc.loading_location\n\t   var packing=frm.doc.packing\n\t   $.each(frm.doc.items, function(i, d) {\n            var a=d.item_code\n            var b=d.brand\n            var c=d.product_density\n            console.log(a)\n     frm.add_custom_button(\"Sales Order\",function(){\n        var local_doc = frappe.model.get_new_doc('Sales Order');\n    \t\t   local_doc.customer_purchase_order = name;\n    \t\t   local_doc.loading_location = location;\n    \t\t   local_doc.packing= packing\n    \t\t   local_doc.naming_series='SAL-ORD-.YYYY.-'\n    \t\t   local_doc.order_type='Sales'\n    \t\t   $.each(local_doc.items,function(i,d){\n    \t\t        console.log(a)\n    \t\t        d.item_code=a\n    \t\t       \n    \t\t       \n    \t\t   })\n    \t\t   \n    \t\t   \n    \t\t\n    \t\t   frappe.set_route('Form',\"Sales Order\",local_doc.name);\n\t\t    \n\t        }, __(\"Create\"));\n   \n\t   });\n\t}\n})",
+  "view": "Form"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Client Script",
+  "dt": "Sales Order",
+  "enabled": 1,
+  "modified": "2023-02-27 17:37:14.714984",
   "module": "Mignesh",
   "name": "Refresh Error for sales Order",
-  "script": "frappe.ui.form.on('Purchase Order', {\nrefresh(frm) {\n\n\t   var name= frm.doc.name;\n\t   var location= frm.doc.loading_location\n\t   $.each(frm.doc.items, function(i, d) {\n            var a=d.item_code\n            var b=d.brand\n            var c=d.product_density\n     frm.add_custom_button(\"Sales Order\",function(){\n        var local_doc = frappe.model.get_new_doc('Sales Order');\n    \t\t   local_doc.customer_purchase_order = name;\n    \t\t   local_doc.loading_location = location;\n    \t\t   \n    \t\t   \n    \t\t\n    \t\t   frappe.set_route('Form',\"Sales Order\",local_doc.name);\n\t\t    \n\t        }, __(\"Create\"));\n   \n\t   });\n\t}\n})",
+  "script": "frappe.ui.form.on('Sales Order', {\n after_save:function(frm){\n\t    frm.refresh()\n\t    frm.reload_doc()\n    }\n})\n    ",
+  "view": "Form"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Client Script",
+  "dt": "Sales Order",
+  "enabled": 1,
+  "modified": "2023-02-27 18:16:50.784300",
+  "module": null,
+  "name": "Fetch Sales order Item",
+  "script": "frappe.ui.form.on('Sales Order', {\n\tonload(frm) {\n\t    var po= frm.doc.customer_purchase_order\n\t    console.log(po)\n\t    let pur_ord=po\n\t    \n\t    $.each(pur_ord.items,function(i,d){\n\t       \n\t        var a=d.item_code\n\t        console.log(a)\n\t    })\n\t}\n})",
   "view": "Form"
  }
 ]
