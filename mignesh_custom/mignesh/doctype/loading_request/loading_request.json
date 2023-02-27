@@ -1,0 +1,279 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-02-20 13:31:34.720333",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "to",
+  "date",
+  "column_break_tf5i",
+  "customer_name_bill_to_party",
+  "ship_to_party_name_and_address",
+  "section_break_zx1m",
+  "explosive_licence_for_storage_no_and_quantity",
+  "ecc_no_range_and_division",
+  "solvent_control_liocense_no_and_qty_of_ship_to_party",
+  "column_break_4rwr",
+  "gst_number",
+  "cms_code",
+  "utr_no",
+  "section_break_im4b",
+  "loading_request_item",
+  "section_break_ieu7",
+  "transporter_name",
+  "vehicle_no",
+  "product_receipt_location",
+  "column_break_o6az",
+  "driver_name_and_gate_pass_no",
+  "cleaner_name_and_gate_pass_no",
+  "driver_driving_license_no"
+ ],
+ "fields": [
+  {
+   "fieldname": "to",
+   "fieldtype": "Link",
+   "label": "To",
+   "options": "Supplier"
+  },
+  {
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "customer_name_bill_to_party",
+   "fieldtype": "Link",
+   "label": "Customer Name (Bill to Party)",
+   "options": "Company"
+  },
+  {
+   "fieldname": "cms_code",
+   "fieldtype": "Data",
+   "label": "CMS Code"
+  },
+  {
+   "fieldname": "explosive_licence_for_storage_no_and_quantity",
+   "fieldtype": "Data",
+   "label": "Explosive Licence for Storage No. and Quantity"
+  },
+  {
+   "fieldname": "ship_to_party_name_and_address",
+   "fieldtype": "Link",
+   "label": "Ship to Party Name and Address",
+   "options": "Address"
+  },
+  {
+   "fieldname": "ecc_no_range_and_division",
+   "fieldtype": "Data",
+   "label": "ECC No. Range and Division"
+  },
+  {
+   "fieldname": "gst_number",
+   "fieldtype": "Data",
+   "label": "GST Number"
+  },
+  {
+   "fieldname": "solvent_control_liocense_no_and_qty_of_ship_to_party",
+   "fieldtype": "Data",
+   "label": "SOLVENT CONTROL LIOCENSE NO. and QTY OF SHIP TO PARTY"
+  },
+  {
+   "fieldname": "transporter_name",
+   "fieldtype": "Data",
+   "label": "Transporter Name"
+  },
+  {
+   "fieldname": "vehicle_no",
+   "fieldtype": "Data",
+   "label": "Vehicle No."
+  },
+  {
+   "fieldname": "product_receipt_location",
+   "fieldtype": "Text",
+   "label": "Product Receipt Location"
+  },
+  {
+   "fieldname": "driver_name_and_gate_pass_no",
+   "fieldtype": "Data",
+   "label": "Driver Name and Gate pass No."
+  },
+  {
+   "fieldname": "cleaner_name_and_gate_pass_no",
+   "fieldtype": "Data",
+   "label": "Cleaner Name and Gate pass No."
+  },
+  {
+   "fieldname": "driver_driving_license_no",
+   "fieldtype": "Data",
+   "label": "Driver Driving License No."
+  },
+  {
+   "fieldname": "utr_no",
+   "fieldtype": "Data",
+   "label": "UTR No.",
+   "unique": 1
+  },
+  {
+   "fieldname": "loading_request_item",
+   "fieldtype": "Table",
+   "options": "Loading Request Item"
+  },
+  {
+   "fieldname": "column_break_tf5i",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_zx1m",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_4rwr",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_im4b",
+   "fieldtype": "Section Break",
+   "label": "Product Details"
+  },
+  {
+   "fieldname": "section_break_ieu7",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_o6az",
+   "fieldtype": "Column Break"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-02-24 18:28:19.598644",
+ "modified_by": "Administrator",
+ "module": "Mignesh",
+ "name": "Loading Request",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "select": 1,
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Purchase User",
+   "select": 1,
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Purchase Manager",
+   "select": 1,
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Accounts User",
+   "select": 1,
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Accounts Manager",
+   "select": 1,
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Purchase Master Manager",
+   "select": 1,
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Sales User",
+   "select": 1,
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Sales Order Approver",
+   "select": 1,
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Sales Manager",
+   "select": 1,
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

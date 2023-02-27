@@ -1,0 +1,339 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-02-15 13:00:02.744295",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "vehical_no",
+  "column_break_xffy",
+  "date",
+  "section_break_4wak",
+  "hiring_party",
+  "payment_party",
+  "column_break_behu",
+  "diesel_amt_paid_by",
+  "trf_to_bank_cash",
+  "section_break_yacq",
+  "l_r_number",
+  "loading_date",
+  "column_break_ylbx",
+  "l_r_copy_received",
+  "fuel_receipt_received",
+  "charges_per_day",
+  "section_break_ppsd",
+  "freight_pmt",
+  "column_break_vcyr",
+  "loading_weight",
+  "section_break_f1dy",
+  "vehical_trip_child",
+  "section_break_59wn",
+  "difference",
+  "bill_amount",
+  "column_break_fhne",
+  "over_due_amount",
+  "fual_info_section",
+  "diesel_date",
+  "fuel_type",
+  "fuel_place",
+  "column_break_nkty",
+  "litter",
+  "litter_rate",
+  "total_fuel_amount",
+  "column_break_d85f",
+  "loading_km",
+  "filling_km",
+  "return_km",
+  "actual_km",
+  "section_break_ssrp",
+  "driver_name",
+  "driver_cash",
+  "column_break_pj7n",
+  "driver_cash_date",
+  "toll_paytm",
+  "totals_section",
+  "total_bill_amount",
+  "amended_from"
+ ],
+ "fields": [
+  {
+   "fieldname": "vehical_no",
+   "fieldtype": "Link",
+   "label": "Vehical No.",
+   "options": "Vehicle"
+  },
+  {
+   "fieldname": "column_break_xffy",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "section_break_4wak",
+   "fieldtype": "Section Break",
+   "label": "Party"
+  },
+  {
+   "fieldname": "hiring_party",
+   "fieldtype": "Data",
+   "label": "Hiring Party"
+  },
+  {
+   "fieldname": "payment_party",
+   "fieldtype": "Data",
+   "label": "Payment Party"
+  },
+  {
+   "fieldname": "column_break_behu",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "diesel_amt_paid_by",
+   "fieldtype": "Data",
+   "label": "Diesel Amt Paid By"
+  },
+  {
+   "fieldname": "trf_to_bank_cash",
+   "fieldtype": "Select",
+   "label": "Trf To Bank/ Cash",
+   "options": "Cash\nBank"
+  },
+  {
+   "fieldname": "section_break_yacq",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "l_r_number",
+   "fieldtype": "Link",
+   "label": "L. R. Number ",
+   "options": "Loading Request"
+  },
+  {
+   "fieldname": "loading_date",
+   "fieldtype": "Date",
+   "label": "Unloading Due Date"
+  },
+  {
+   "fieldname": "column_break_ylbx",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "l_r_copy_received",
+   "fieldtype": "Check",
+   "label": "L R Copy Received"
+  },
+  {
+   "default": "0",
+   "fieldname": "fuel_receipt_received",
+   "fieldtype": "Check",
+   "in_list_view": 1,
+   "label": "Fuel Receipt Received",
+   "reqd": 1
+  },
+  {
+   "fieldname": "charges_per_day",
+   "fieldtype": "Data",
+   "label": "Overdue Charges Per Day"
+  },
+  {
+   "fieldname": "section_break_ppsd",
+   "fieldtype": "Section Break",
+   "label": "Trasportation Details"
+  },
+  {
+   "fieldname": "freight_pmt",
+   "fieldtype": "Data",
+   "label": "Freight PMT"
+  },
+  {
+   "fieldname": "column_break_vcyr",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "loading_weight",
+   "fieldtype": "Data",
+   "label": "Loading Weight"
+  },
+  {
+   "fieldname": "section_break_f1dy",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "vehical_trip_child",
+   "fieldtype": "Table",
+   "options": "Vehical Trip Child"
+  },
+  {
+   "fieldname": "section_break_59wn",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "difference",
+   "fieldtype": "Data",
+   "label": "Difference"
+  },
+  {
+   "fieldname": "bill_amount",
+   "fieldtype": "Data",
+   "label": "Bill Amount",
+   "options": "Currency"
+  },
+  {
+   "fieldname": "column_break_fhne",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "over_due_amount",
+   "fieldtype": "Data",
+   "label": "Over due Amount",
+   "options": "Currency"
+  },
+  {
+   "fieldname": "fual_info_section",
+   "fieldtype": "Section Break",
+   "label": "Fuel Information"
+  },
+  {
+   "fieldname": "diesel_date",
+   "fieldtype": "Date",
+   "label": "Diesel Date"
+  },
+  {
+   "fieldname": "fuel_type",
+   "fieldtype": "Select",
+   "label": "Fuel Type",
+   "options": "DIESEL\nUREA"
+  },
+  {
+   "fieldname": "litter",
+   "fieldtype": "Int",
+   "label": "Litter"
+  },
+  {
+   "fieldname": "fuel_place",
+   "fieldtype": "Data",
+   "label": "Fuel Place"
+  },
+  {
+   "fieldname": "column_break_nkty",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "filling_km",
+   "fieldtype": "Data",
+   "label": "Filling K.M."
+  },
+  {
+   "fieldname": "loading_km",
+   "fieldtype": "Data",
+   "label": "Loading K.M."
+  },
+  {
+   "fieldname": "litter_rate",
+   "fieldtype": "Data",
+   "label": "Rate Per Litter "
+  },
+  {
+   "fieldname": "total_fuel_amount",
+   "fieldtype": "Currency",
+   "label": "Total Fuel Amount",
+   "options": "Currency"
+  },
+  {
+   "fieldname": "return_km",
+   "fieldtype": "Data",
+   "label": "Return K.M."
+  },
+  {
+   "fieldname": "column_break_d85f",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "actual_km",
+   "fieldtype": "Data",
+   "label": "Actual K.M."
+  },
+  {
+   "fieldname": "section_break_ssrp",
+   "fieldtype": "Section Break",
+   "label": "Driver Details"
+  },
+  {
+   "fieldname": "driver_name",
+   "fieldtype": "Data",
+   "label": "Driver Name"
+  },
+  {
+   "fieldname": "driver_cash",
+   "fieldtype": "Data",
+   "label": "Driver Cash"
+  },
+  {
+   "fieldname": "column_break_pj7n",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "driver_cash_date",
+   "fieldtype": "Date",
+   "label": "Driver Cash Date"
+  },
+  {
+   "fieldname": "toll_paytm",
+   "fieldtype": "Data",
+   "label": "Toll (Paytm)",
+   "options": "Currency"
+  },
+  {
+   "fieldname": "totals_section",
+   "fieldtype": "Section Break",
+   "label": "Totals"
+  },
+  {
+   "depends_on": "eval:doc.over_due_amount !== null",
+   "fieldname": "total_bill_amount",
+   "fieldtype": "Data",
+   "label": "Total Bill Amount",
+   "options": "Currency"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Vehicle Trip",
+   "print_hide": 1,
+   "read_only": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-02-22 16:00:06.713756",
+ "modified_by": "Administrator",
+ "module": "Mignesh",
+ "name": "Vehicle Trip",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1
+}

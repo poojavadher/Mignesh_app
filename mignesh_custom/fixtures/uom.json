@@ -1,0 +1,2180 @@
+[
+ {
+  "docstatus": 0,
+  "doctype": "UOM",
+  "enabled": 1,
+  "modified": "2023-02-03 15:19:17.346793",
+  "must_be_whole_number": 1,
+  "name": "Unit",
+  "uom_name": "Unit"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "UOM",
+  "enabled": 1,
+  "modified": "2023-02-03 15:19:17.347624",
+  "must_be_whole_number": 1,
+  "name": "Box",
+  "uom_name": "Box"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "UOM",
+  "enabled": 1,
+  "modified": "2023-02-03 15:19:17.348377",
+  "must_be_whole_number": 1,
+  "name": "Nos",
+  "uom_name": "Nos"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "UOM",
+  "enabled": 1,
+  "modified": "2023-02-03 15:19:17.349166",
+  "must_be_whole_number": 1,
+  "name": "Pair",
+  "uom_name": "Pair"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "UOM",
+  "enabled": 1,
+  "modified": "2023-02-03 15:19:17.349929",
+  "must_be_whole_number": 1,
+  "name": "Set",
+  "uom_name": "Set"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "UOM",
+  "enabled": 1,
+  "modified": "2023-02-03 15:19:17.350682",
+  "must_be_whole_number": 0,
+  "name": "Meter",
+  "uom_name": "Meter"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "UOM",
+  "enabled": 1,
+  "modified": "2023-02-03 15:19:17.351442",
+  "must_be_whole_number": 0,
+  "name": "Barleycorn",
+  "uom_name": "Barleycorn"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "UOM",
+  "enabled": 1,
+  "modified": "2023-02-03 15:19:17.352157",
+  "must_be_whole_number": 0,
+  "name": "Calibre",
+  "uom_name": "Calibre"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "UOM",
+  "enabled": 1,
+  "modified": "2023-02-03 15:19:17.352912",
+  "must_be_whole_number": 0,
+  "name": "Cable Length (UK)",
+  "uom_name": "Cable Length (UK)"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "UOM",
+  "enabled": 1,
+  "modified": "2023-02-03 15:19:17.353668",
+  "must_be_whole_number": 0,
+  "name": "Cable Length (US)",
+  "uom_name": "Cable Length (US)"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "UOM",
+  "enabled": 1,
+  "modified": "2023-02-03 15:19:17.354420",
+  "must_be_whole_number": 0,
+  "name": "Cable Length",
+  "uom_name": "Cable Length"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "UOM",
+  "enabled": 1,
+  "modified": "2023-02-03 15:19:17.355088",
+  "must_be_whole_number": 0,
+  "name": "Centimeter",
+  "uom_name": "Centimeter"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "UOM",
+  "enabled": 1,
+  "modified": "2023-02-03 15:19:17.355743",
+  "must_be_whole_number": 0,
+  "name": "Chain",
+  "uom_name": "Chain"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "UOM",
+  "enabled": 1,
+  "modified": "2023-02-03 15:19:17.356436",
+  "must_be_whole_number": 0,
+  "name": "Decimeter",
+  "uom_name": "Decimeter"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "UOM",
+  "enabled": 1,
+  "modified": "2023-02-03 15:19:17.357099",
+  "must_be_whole_number": 0,
+  "name": "Ells (UK)",
+  "uom_name": "Ells (UK)"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "UOM",
+  "enabled": 1,
+  "modified": "2023-02-03 15:19:17.357785",
+  "must_be_whole_number": 0,
+  "name": "Ems(Pica)",
+  "uom_name": "Ems(Pica)"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "UOM",
+  "enabled": 1,
+  "modified": "2023-02-03 15:19:17.358443",
+  "must_be_whole_number": 0,
+  "name": "Fathom",
+  "uom_name": "Fathom"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "UOM",
+  "enabled": 1,
+  "modified": "2023-02-03 15:19:17.359125",
+  "must_be_whole_number": 0,
+  "name": "Foot",
+  "uom_name": "Foot"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "UOM",
+  "enabled": 1,
+  "modified": "2023-02-03 15:19:17.359840",
+  "must_be_whole_number": 0,
+  "name": "Furlong",
+  "uom_name": "Furlong"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "UOM",
+  "enabled": 1,
+  "modified": "2023-02-03 15:19:17.360536",
+  "must_be_whole_number": 0,
+  "name": "Hand",
+  "uom_name": "Hand"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "UOM",
+  "enabled": 1,
+  "modified": "2023-02-03 15:19:17.361287",
+  "must_be_whole_number": 0,
+  "name": "Hectometer",
+  "uom_name": "Hectometer"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "UOM",
+  "enabled": 1,
+  "modified": "2023-02-03 15:19:17.362044",
+  "must_be_whole_number": 0,
+  "name": "Inch",
+  "uom_name": "Inch"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "UOM",
+  "enabled": 1,
+  "modified": "2023-02-03 15:19:17.362796",
+  "must_be_whole_number": 0,
+  "name": "Kilometer",
+  "uom_name": "Kilometer"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "UOM",
+  "enabled": 1,
+  "modified": "2023-02-03 15:19:17.363540",
+  "must_be_whole_number": 0,
+  "name": "Link",
+  "uom_name": "Link"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "UOM",
+  "enabled": 1,
+  "modified": "2023-02-03 15:19:17.364488",
+  "must_be_whole_number": 0,
+  "name": "Micrometer",
+  "uom_name": "Micrometer"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "UOM",
+  "enabled": 1,
+  "modified": "2023-02-03 15:19:17.365532",
+  "must_be_whole_number": 0,
+  "name": "Mile",
+  "uom_name": "Mile"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "UOM",
+  "enabled": 1,
+  "modified": "2023-02-03 15:19:17.366357",
+  "must_be_whole_number": 0,
+  "name": "Mile (Nautical)",
+  "uom_name": "Mile (Nautical)"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "UOM",
+  "enabled": 1,
+  "modified": "2023-02-03 15:19:17.367142",
+  "must_be_whole_number": 0,
+  "name": "Millimeter",
+  "uom_name": "Millimeter"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "UOM",
+  "enabled": 1,
+  "modified": "2023-02-03 15:19:17.367912",
+  "must_be_whole_number": 0,
+  "name": "Nanometer",
+  "uom_name": "Nanometer"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "UOM",
+  "enabled": 1,
+  "modified": "2023-02-03 15:19:17.368720",
+  "must_be_whole_number": 0,
+  "name": "Rod",
+  "uom_name": "Rod"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "UOM",
+  "enabled": 1,
+  "modified": "2023-02-03 15:19:17.369522",
+  "must_be_whole_number": 0,
+  "name": "Vara",
+  "uom_name": "Vara"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "UOM",
+  "enabled": 1,
+  "modified": "2023-02-03 15:19:17.370287",
+  "must_be_whole_number": 0,
+  "name": "Versta",
+  "uom_name": "Versta"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "UOM",
+  "enabled": 1,
+  "modified": "2023-02-03 15:19:17.371047",
+  "must_be_whole_number": 0,
+  "name": "Yard",
+  "uom_name": "Yard"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "UOM",
+  "enabled": 1,
+  "modified": "2023-02-03 15:19:17.371801",
+  "must_be_whole_number": 0,
+  "name": "Arshin",
+  "uom_name": "Arshin"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "UOM",
+  "enabled": 1,
+  "modified": "2023-02-03 15:19:17.372570",
+  "must_be_whole_number": 0,
+  "name": "Sazhen",
+  "uom_name": "Sazhen"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "UOM",
+  "enabled": 1,
+  "modified": "2023-02-03 15:19:17.373332",
+  "must_be_whole_number": 0,
+  "name": "Medio Metro",
+  "uom_name": "Medio Metro"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "UOM",
+  "enabled": 1,
+  "modified": "2023-02-03 15:19:17.374091",
+  "must_be_whole_number": 0,
+  "name": "Square Meter",
+  "uom_name": "Square Meter"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "UOM",
+  "enabled": 1,
+  "modified": "2023-02-03 15:19:17.374851",
+  "must_be_whole_number": 0,
+  "name": "Centiarea",
+  "uom_name": "Centiarea"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "UOM",
+  "enabled": 1,
+  "modified": "2023-02-03 15:19:17.375565",
+  "must_be_whole_number": 0,
+  "name": "Area",
+  "uom_name": "Area"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "UOM",
+  "enabled": 1,
+  "modified": "2023-02-03 15:19:17.376304",
+  "must_be_whole_number": 0,
+  "name": "Manzana",
+  "uom_name": "Manzana"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "UOM",
+  "enabled": 1,
+  "modified": "2023-02-03 15:19:17.377097",
+  "must_be_whole_number": 0,
+  "name": "Caballeria",
+  "uom_name": "Caballeria"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "UOM",
+  "enabled": 1,
+  "modified": "2023-02-03 15:19:17.377874",
+  "must_be_whole_number": 0,
+  "name": "Square Kilometer",
+  "uom_name": "Square Kilometer"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "UOM",
+  "enabled": 1,
+  "modified": "2023-02-03 15:19:17.378661",
+  "must_be_whole_number": 0,
+  "name": "Are",
+  "uom_name": "Are"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "UOM",
+  "enabled": 1,
+  "modified": "2023-02-03 15:19:17.379584",
+  "must_be_whole_number": 0,
+  "name": "Acre",
+  "uom_name": "Acre"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "UOM",
+  "enabled": 1,
+  "modified": "2023-02-03 15:19:17.380365",
+  "must_be_whole_number": 0,
+  "name": "Acre (US)",
+  "uom_name": "Acre (US)"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "UOM",
+  "enabled": 1,
+  "modified": "2023-02-03 15:19:17.381070",
+  "must_be_whole_number": 0,
+  "name": "Hectare",
+  "uom_name": "Hectare"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "UOM",
+  "enabled": 1,
+  "modified": "2023-02-03 15:19:17.381766",
+  "must_be_whole_number": 0,
+  "name": "Square Yard",
+  "uom_name": "Square Yard"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "UOM",
+  "enabled": 1,
+  "modified": "2023-02-03 15:19:17.382434",
+  "must_be_whole_number": 0,
+  "name": "Square Foot",
+  "uom_name": "Square Foot"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "UOM",
+  "enabled": 1,
+  "modified": "2023-02-03 15:19:17.383081",
+  "must_be_whole_number": 0,
+  "name": "Square Inch",
+  "uom_name": "Square Inch"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "UOM",
+  "enabled": 1,
+  "modified": "2023-02-03 15:19:17.383724",
+  "must_be_whole_number": 0,
+  "name": "Square Centimeter",
+  "uom_name": "Square Centimeter"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "UOM",
+  "enabled": 1,
+  "modified": "2023-02-03 15:19:17.384406",
+  "must_be_whole_number": 0,
+  "name": "Square Mile",
+  "uom_name": "Square Mile"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "UOM",
+  "enabled": 1,
+  "modified": "2023-02-03 15:19:17.385053",
+  "must_be_whole_number": 0,
+  "name": "Meter/Second",
+  "uom_name": "Meter/Second"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "UOM",
+  "enabled": 1,
+  "modified": "2023-02-03 15:19:17.385708",
+  "must_be_whole_number": 0,
+  "name": "Inch/Minute",
+  "uom_name": "Inch/Minute"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "UOM",
+  "enabled": 1,
+  "modified": "2023-02-03 15:19:17.386352",
+  "must_be_whole_number": 0,
+  "name": "Foot/Minute",
+  "uom_name": "Foot/Minute"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "UOM",
+  "enabled": 1,
+  "modified": "2023-02-03 15:19:17.386993",
+  "must_be_whole_number": 0,
+  "name": "Inch/Second",
+  "uom_name": "Inch/Second"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "UOM",
+  "enabled": 1,
+  "modified": "2023-02-03 15:19:17.387632",
+  "must_be_whole_number": 0,
+  "name": "Kilometer/Hour",
+  "uom_name": "Kilometer/Hour"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "UOM",
+  "enabled": 1,
+  "modified": "2023-02-03 15:19:17.388272",
+  "must_be_whole_number": 0,
+  "name": "Foot/Second",
+  "uom_name": "Foot/Second"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "UOM",
+  "enabled": 1,
+  "modified": "2023-02-03 15:19:17.388962",
+  "must_be_whole_number": 0,
+  "name": "Mile/Hour",
+  "uom_name": "Mile/Hour"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "UOM",
+  "enabled": 1,
+  "modified": "2023-02-03 15:19:17.389601",
+  "must_be_whole_number": 0,
+  "name": "Knot",
+  "uom_name": "Knot"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "UOM",
+  "enabled": 1,
+  "modified": "2023-02-03 15:19:17.390243",
+  "must_be_whole_number": 0,
+  "name": "Mile/Minute",
+  "uom_name": "Mile/Minute"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "UOM",
+  "enabled": 1,
+  "modified": "2023-02-03 15:19:17.390880",
+  "must_be_whole_number": 0,
+  "name": "Mile/Second",
+  "uom_name": "Mile/Second"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "UOM",
+  "enabled": 1,
+  "modified": "2023-02-03 15:19:17.391515",
+  "must_be_whole_number": 0,
+  "name": "Carat",
+  "uom_name": "Carat"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "UOM",
+  "enabled": 1,
+  "modified": "2023-02-03 15:19:17.392151",
+  "must_be_whole_number": 0,
+  "name": "Cental",
+  "uom_name": "Cental"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "UOM",
+  "enabled": 1,
+  "modified": "2023-02-03 15:19:17.392835",
+  "must_be_whole_number": 0,
+  "name": "Dram",
+  "uom_name": "Dram"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "UOM",
+  "enabled": 1,
+  "modified": "2023-02-03 15:19:17.393473",
+  "must_be_whole_number": 0,
+  "name": "Grain",
+  "uom_name": "Grain"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "UOM",
+  "enabled": 1,
+  "modified": "2023-02-03 15:19:17.394110",
+  "must_be_whole_number": 0,
+  "name": "Gram",
+  "uom_name": "Gram"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "UOM",
+  "enabled": 1,
+  "modified": "2023-02-03 15:19:17.394804",
+  "must_be_whole_number": 0,
+  "name": "Hundredweight (UK)",
+  "uom_name": "Hundredweight (UK)"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "UOM",
+  "enabled": 1,
+  "modified": "2023-02-03 15:19:17.395599",
+  "must_be_whole_number": 0,
+  "name": "Hundredweight (US)",
+  "uom_name": "Hundredweight (US)"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "UOM",
+  "enabled": 1,
+  "modified": "2023-02-03 15:19:17.396381",
+  "must_be_whole_number": 0,
+  "name": "Quintal",
+  "uom_name": "Quintal"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "UOM",
+  "enabled": 1,
+  "modified": "2023-02-03 15:19:17.397128",
+  "must_be_whole_number": 0,
+  "name": "Kg",
+  "uom_name": "Kg"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "UOM",
+  "enabled": 1,
+  "modified": "2023-02-03 15:19:17.397861",
+  "must_be_whole_number": 0,
+  "name": "Microgram",
+  "uom_name": "Microgram"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "UOM",
+  "enabled": 1,
+  "modified": "2023-02-03 15:19:17.398597",
+  "must_be_whole_number": 0,
+  "name": "Milligram",
+  "uom_name": "Milligram"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "UOM",
+  "enabled": 1,
+  "modified": "2023-02-03 15:19:17.399335",
+  "must_be_whole_number": 0,
+  "name": "Ounce",
+  "uom_name": "Ounce"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "UOM",
+  "enabled": 1,
+  "modified": "2023-02-03 15:19:17.400137",
+  "must_be_whole_number": 0,
+  "name": "Pood",
+  "uom_name": "Pood"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "UOM",
+  "enabled": 1,
+  "modified": "2023-02-03 15:19:17.400830",
+  "must_be_whole_number": 0,
+  "name": "Pound",
+  "uom_name": "Pound"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "UOM",
+  "enabled": 1,
+  "modified": "2023-02-03 15:19:17.401477",
+  "must_be_whole_number": 0,
+  "name": "Slug",
+  "uom_name": "Slug"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "UOM",
+  "enabled": 1,
+  "modified": "2023-02-03 15:19:17.402114",
+  "must_be_whole_number": 0,
+  "name": "Stone",
+  "uom_name": "Stone"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "UOM",
+  "enabled": 1,
+  "modified": "2023-02-03 15:19:17.402749",
+  "must_be_whole_number": 0,
+  "name": "Tonne",
+  "uom_name": "Tonne"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "UOM",
+  "enabled": 1,
+  "modified": "2023-02-03 15:19:17.403382",
+  "must_be_whole_number": 0,
+  "name": "Kip",
+  "uom_name": "Kip"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "UOM",
+  "enabled": 1,
+  "modified": "2023-02-03 15:19:17.404012",
+  "must_be_whole_number": 0,
+  "name": "Barrel(Beer)",
+  "uom_name": "Barrel(Beer)"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "UOM",
+  "enabled": 1,
+  "modified": "2023-02-03 15:19:17.404736",
+  "must_be_whole_number": 0,
+  "name": "Barrel (Oil)",
+  "uom_name": "Barrel (Oil)"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "UOM",
+  "enabled": 1,
+  "modified": "2023-02-03 15:19:17.405531",
+  "must_be_whole_number": 0,
+  "name": "Bushel (UK)",
+  "uom_name": "Bushel (UK)"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "UOM",
+  "enabled": 1,
+  "modified": "2023-02-03 15:19:17.406363",
+  "must_be_whole_number": 0,
+  "name": "Bushel (US Dry Level)",
+  "uom_name": "Bushel (US Dry Level)"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "UOM",
+  "enabled": 1,
+  "modified": "2023-02-03 15:19:17.407125",
+  "must_be_whole_number": 0,
+  "name": "Centilitre",
+  "uom_name": "Centilitre"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "UOM",
+  "enabled": 1,
+  "modified": "2023-02-03 15:19:17.407868",
+  "must_be_whole_number": 0,
+  "name": "Cubic Centimeter",
+  "uom_name": "Cubic Centimeter"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "UOM",
+  "enabled": 1,
+  "modified": "2023-02-03 15:19:17.408651",
+  "must_be_whole_number": 0,
+  "name": "Cubic Decimeter",
+  "uom_name": "Cubic Decimeter"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "UOM",
+  "enabled": 1,
+  "modified": "2023-02-03 15:19:17.409390",
+  "must_be_whole_number": 0,
+  "name": "Cubic Foot",
+  "uom_name": "Cubic Foot"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "UOM",
+  "enabled": 1,
+  "modified": "2023-02-03 15:19:17.410091",
+  "must_be_whole_number": 0,
+  "name": "Cubic Inch",
+  "uom_name": "Cubic Inch"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "UOM",
+  "enabled": 1,
+  "modified": "2023-02-03 15:19:17.410828",
+  "must_be_whole_number": 0,
+  "name": "Cubic Meter",
+  "uom_name": "Cubic Meter"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "UOM",
+  "enabled": 1,
+  "modified": "2023-02-03 15:19:17.411564",
+  "must_be_whole_number": 0,
+  "name": "Cubic Millimeter",
+  "uom_name": "Cubic Millimeter"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "UOM",
+  "enabled": 1,
+  "modified": "2023-02-03 15:19:17.412553",
+  "must_be_whole_number": 0,
+  "name": "Cubic Yard",
+  "uom_name": "Cubic Yard"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "UOM",
+  "enabled": 1,
+  "modified": "2023-02-03 15:19:17.413440",
+  "must_be_whole_number": 0,
+  "name": "Cup",
+  "uom_name": "Cup"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "UOM",
+  "enabled": 1,
+  "modified": "2023-02-03 15:19:17.414114",
+  "must_be_whole_number": 0,
+  "name": "Decilitre",
+  "uom_name": "Decilitre"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "UOM",
+  "enabled": 1,
+  "modified": "2023-02-03 15:19:17.414949",
+  "must_be_whole_number": 0,
+  "name": "Fluid Ounce (UK)",
+  "uom_name": "Fluid Ounce (UK)"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "UOM",
+  "enabled": 1,
+  "modified": "2023-02-03 15:19:17.415597",
+  "must_be_whole_number": 0,
+  "name": "Fluid Ounce (US)",
+  "uom_name": "Fluid Ounce (US)"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "UOM",
+  "enabled": 1,
+  "modified": "2023-02-03 15:19:17.416240",
+  "must_be_whole_number": 0,
+  "name": "Gallon (UK)",
+  "uom_name": "Gallon (UK)"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "UOM",
+  "enabled": 1,
+  "modified": "2023-02-03 15:19:17.416929",
+  "must_be_whole_number": 0,
+  "name": "Gallon Dry (US)",
+  "uom_name": "Gallon Dry (US)"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "UOM",
+  "enabled": 1,
+  "modified": "2023-02-03 15:19:17.417582",
+  "must_be_whole_number": 0,
+  "name": "Gallon Liquid (US)",
+  "uom_name": "Gallon Liquid (US)"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "UOM",
+  "enabled": 1,
+  "modified": "2023-02-03 15:19:17.418360",
+  "must_be_whole_number": 0,
+  "name": "Litre",
+  "uom_name": "Litre"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "UOM",
+  "enabled": 1,
+  "modified": "2023-02-03 15:19:17.419071",
+  "must_be_whole_number": 0,
+  "name": "Millilitre",
+  "uom_name": "Millilitre"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "UOM",
+  "enabled": 1,
+  "modified": "2023-02-03 15:19:17.419725",
+  "must_be_whole_number": 0,
+  "name": "Peck",
+  "uom_name": "Peck"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "UOM",
+  "enabled": 1,
+  "modified": "2023-02-03 15:19:17.420425",
+  "must_be_whole_number": 0,
+  "name": "Pint (UK)",
+  "uom_name": "Pint (UK)"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "UOM",
+  "enabled": 1,
+  "modified": "2023-02-03 15:19:17.421181",
+  "must_be_whole_number": 0,
+  "name": "Pint, Dry (US)",
+  "uom_name": "Pint, Dry (US)"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "UOM",
+  "enabled": 1,
+  "modified": "2023-02-03 15:19:17.421930",
+  "must_be_whole_number": 0,
+  "name": "Pint, Liquid (US)",
+  "uom_name": "Pint, Liquid (US)"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "UOM",
+  "enabled": 1,
+  "modified": "2023-02-03 15:19:17.422951",
+  "must_be_whole_number": 0,
+  "name": "Quart (UK)",
+  "uom_name": "Quart (UK)"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "UOM",
+  "enabled": 1,
+  "modified": "2023-02-03 15:19:17.423708",
+  "must_be_whole_number": 0,
+  "name": "Quart Dry (US)",
+  "uom_name": "Quart Dry (US)"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "UOM",
+  "enabled": 1,
+  "modified": "2023-02-03 15:19:17.424394",
+  "must_be_whole_number": 0,
+  "name": "Quart Liquid (US)",
+  "uom_name": "Quart Liquid (US)"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "UOM",
+  "enabled": 1,
+  "modified": "2023-02-03 15:19:17.425134",
+  "must_be_whole_number": 0,
+  "name": "Tablespoon (US)",
+  "uom_name": "Tablespoon (US)"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "UOM",
+  "enabled": 1,
+  "modified": "2023-02-03 15:19:17.425793",
+  "must_be_whole_number": 0,
+  "name": "Teaspoon",
+  "uom_name": "Teaspoon"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "UOM",
+  "enabled": 1,
+  "modified": "2023-02-03 15:19:17.426435",
+  "must_be_whole_number": 0,
+  "name": "Day",
+  "uom_name": "Day"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "UOM",
+  "enabled": 1,
+  "modified": "2023-02-03 15:19:17.427071",
+  "must_be_whole_number": 0,
+  "name": "Hour",
+  "uom_name": "Hour"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "UOM",
+  "enabled": 1,
+  "modified": "2023-02-03 15:19:17.427703",
+  "must_be_whole_number": 0,
+  "name": "Minute",
+  "uom_name": "Minute"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "UOM",
+  "enabled": 1,
+  "modified": "2023-02-03 15:19:17.428376",
+  "must_be_whole_number": 0,
+  "name": "Second",
+  "uom_name": "Second"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "UOM",
+  "enabled": 1,
+  "modified": "2023-02-03 15:19:17.429152",
+  "must_be_whole_number": 0,
+  "name": "Millisecond",
+  "uom_name": "Millisecond"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "UOM",
+  "enabled": 1,
+  "modified": "2023-02-03 15:19:17.429815",
+  "must_be_whole_number": 0,
+  "name": "Microsecond",
+  "uom_name": "Microsecond"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "UOM",
+  "enabled": 1,
+  "modified": "2023-02-03 15:19:17.430467",
+  "must_be_whole_number": 0,
+  "name": "Nanosecond",
+  "uom_name": "Nanosecond"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "UOM",
+  "enabled": 1,
+  "modified": "2023-02-03 15:19:17.431142",
+  "must_be_whole_number": 0,
+  "name": "Week",
+  "uom_name": "Week"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "UOM",
+  "enabled": 1,
+  "modified": "2023-02-03 15:19:17.431797",
+  "must_be_whole_number": 0,
+  "name": "Atmosphere",
+  "uom_name": "Atmosphere"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "UOM",
+  "enabled": 1,
+  "modified": "2023-02-03 15:19:17.432483",
+  "must_be_whole_number": 0,
+  "name": "Pascal",
+  "uom_name": "Pascal"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "UOM",
+  "enabled": 1,
+  "modified": "2023-02-03 15:19:17.433125",
+  "must_be_whole_number": 0,
+  "name": "Bar",
+  "uom_name": "Bar"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "UOM",
+  "enabled": 1,
+  "modified": "2023-02-03 15:19:17.433768",
+  "must_be_whole_number": 0,
+  "name": "Foot Of Water",
+  "uom_name": "Foot Of Water"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "UOM",
+  "enabled": 1,
+  "modified": "2023-02-03 15:19:17.434406",
+  "must_be_whole_number": 0,
+  "name": "Hectopascal",
+  "uom_name": "Hectopascal"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "UOM",
+  "enabled": 1,
+  "modified": "2023-02-03 15:19:17.435049",
+  "must_be_whole_number": 0,
+  "name": "Iches Of Water",
+  "uom_name": "Iches Of Water"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "UOM",
+  "enabled": 1,
+  "modified": "2023-02-03 15:19:17.435720",
+  "must_be_whole_number": 0,
+  "name": "Inches Of Mercury",
+  "uom_name": "Inches Of Mercury"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "UOM",
+  "enabled": 1,
+  "modified": "2023-02-03 15:19:17.436413",
+  "must_be_whole_number": 0,
+  "name": "Kilopascal",
+  "uom_name": "Kilopascal"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "UOM",
+  "enabled": 1,
+  "modified": "2023-02-03 15:19:17.437057",
+  "must_be_whole_number": 0,
+  "name": "Meter Of Water",
+  "uom_name": "Meter Of Water"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "UOM",
+  "enabled": 1,
+  "modified": "2023-02-03 15:19:17.437696",
+  "must_be_whole_number": 0,
+  "name": "Microbar",
+  "uom_name": "Microbar"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "UOM",
+  "enabled": 1,
+  "modified": "2023-02-03 15:19:17.438333",
+  "must_be_whole_number": 0,
+  "name": "Milibar",
+  "uom_name": "Milibar"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "UOM",
+  "enabled": 1,
+  "modified": "2023-02-03 15:19:17.438971",
+  "must_be_whole_number": 0,
+  "name": "Millimeter Of Mercury",
+  "uom_name": "Millimeter Of Mercury"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "UOM",
+  "enabled": 1,
+  "modified": "2023-02-03 15:19:17.439617",
+  "must_be_whole_number": 0,
+  "name": "Millimeter Of Water",
+  "uom_name": "Millimeter Of Water"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "UOM",
+  "enabled": 1,
+  "modified": "2023-02-03 15:19:17.440363",
+  "must_be_whole_number": 0,
+  "name": "Technical Atmosphere",
+  "uom_name": "Technical Atmosphere"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "UOM",
+  "enabled": 1,
+  "modified": "2023-02-03 15:19:17.441105",
+  "must_be_whole_number": 0,
+  "name": "Torr",
+  "uom_name": "Torr"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "UOM",
+  "enabled": 1,
+  "modified": "2023-02-03 15:19:17.441840",
+  "must_be_whole_number": 0,
+  "name": "Dyne",
+  "uom_name": "Dyne"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "UOM",
+  "enabled": 1,
+  "modified": "2023-02-03 15:19:17.442580",
+  "must_be_whole_number": 0,
+  "name": "Gram-Force",
+  "uom_name": "Gram-Force"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "UOM",
+  "enabled": 1,
+  "modified": "2023-02-03 15:19:17.443319",
+  "must_be_whole_number": 0,
+  "name": "Joule/Meter",
+  "uom_name": "Joule/Meter"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "UOM",
+  "enabled": 1,
+  "modified": "2023-02-03 15:19:17.444060",
+  "must_be_whole_number": 0,
+  "name": "Kilogram-Force",
+  "uom_name": "Kilogram-Force"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "UOM",
+  "enabled": 1,
+  "modified": "2023-02-03 15:19:17.444790",
+  "must_be_whole_number": 0,
+  "name": "Kilopond",
+  "uom_name": "Kilopond"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "UOM",
+  "enabled": 1,
+  "modified": "2023-02-03 15:19:17.445528",
+  "must_be_whole_number": 0,
+  "name": "Kilopound-Force",
+  "uom_name": "Kilopound-Force"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "UOM",
+  "enabled": 1,
+  "modified": "2023-02-03 15:19:17.446272",
+  "must_be_whole_number": 0,
+  "name": "Newton",
+  "uom_name": "Newton"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "UOM",
+  "enabled": 1,
+  "modified": "2023-02-03 15:19:17.446932",
+  "must_be_whole_number": 0,
+  "name": "Ounce-Force",
+  "uom_name": "Ounce-Force"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "UOM",
+  "enabled": 1,
+  "modified": "2023-02-03 15:19:17.447577",
+  "must_be_whole_number": 0,
+  "name": "Pond",
+  "uom_name": "Pond"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "UOM",
+  "enabled": 1,
+  "modified": "2023-02-03 15:19:17.448220",
+  "must_be_whole_number": 0,
+  "name": "Pound-Force",
+  "uom_name": "Pound-Force"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "UOM",
+  "enabled": 1,
+  "modified": "2023-02-03 15:19:17.448934",
+  "must_be_whole_number": 0,
+  "name": "Poundal",
+  "uom_name": "Poundal"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "UOM",
+  "enabled": 1,
+  "modified": "2023-02-03 15:19:17.449593",
+  "must_be_whole_number": 0,
+  "name": "Tonne-Force(Metric)",
+  "uom_name": "Tonne-Force(Metric)"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "UOM",
+  "enabled": 1,
+  "modified": "2023-02-03 15:19:17.450241",
+  "must_be_whole_number": 0,
+  "name": "Ton-Force (UK)",
+  "uom_name": "Ton-Force (UK)"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "UOM",
+  "enabled": 1,
+  "modified": "2023-02-03 15:19:17.450884",
+  "must_be_whole_number": 0,
+  "name": "Ton-Force (US)",
+  "uom_name": "Ton-Force (US)"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "UOM",
+  "enabled": 1,
+  "modified": "2023-02-03 15:19:17.451523",
+  "must_be_whole_number": 0,
+  "name": "Btu (It)",
+  "uom_name": "Btu (It)"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "UOM",
+  "enabled": 1,
+  "modified": "2023-02-03 15:19:17.452162",
+  "must_be_whole_number": 0,
+  "name": "Btu (Th)",
+  "uom_name": "Btu (Th)"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "UOM",
+  "enabled": 1,
+  "modified": "2023-02-03 15:19:17.452853",
+  "must_be_whole_number": 0,
+  "name": "Btu (Mean)",
+  "uom_name": "Btu (Mean)"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "UOM",
+  "enabled": 1,
+  "modified": "2023-02-03 15:19:17.453498",
+  "must_be_whole_number": 0,
+  "name": "Calorie (It)",
+  "uom_name": "Calorie (It)"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "UOM",
+  "enabled": 1,
+  "modified": "2023-02-03 15:19:17.454238",
+  "must_be_whole_number": 0,
+  "name": "Calorie (Th)",
+  "uom_name": "Calorie (Th)"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "UOM",
+  "enabled": 1,
+  "modified": "2023-02-03 15:19:17.454975",
+  "must_be_whole_number": 0,
+  "name": "Calorie (Mean)",
+  "uom_name": "Calorie (Mean)"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "UOM",
+  "enabled": 1,
+  "modified": "2023-02-03 15:19:17.455710",
+  "must_be_whole_number": 0,
+  "name": "Calorie (Food)",
+  "uom_name": "Calorie (Food)"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "UOM",
+  "enabled": 1,
+  "modified": "2023-02-03 15:19:17.456409",
+  "must_be_whole_number": 0,
+  "name": "Erg",
+  "uom_name": "Erg"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "UOM",
+  "enabled": 1,
+  "modified": "2023-02-03 15:19:17.457148",
+  "must_be_whole_number": 0,
+  "name": "Horsepower-Hours",
+  "uom_name": "Horsepower-Hours"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "UOM",
+  "enabled": 1,
+  "modified": "2023-02-03 15:19:17.457890",
+  "must_be_whole_number": 0,
+  "name": "Inch Pound-Force",
+  "uom_name": "Inch Pound-Force"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "UOM",
+  "enabled": 1,
+  "modified": "2023-02-03 15:19:17.458636",
+  "must_be_whole_number": 0,
+  "name": "Joule",
+  "uom_name": "Joule"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "UOM",
+  "enabled": 1,
+  "modified": "2023-02-03 15:19:17.459377",
+  "must_be_whole_number": 0,
+  "name": "Kilojoule",
+  "uom_name": "Kilojoule"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "UOM",
+  "enabled": 1,
+  "modified": "2023-02-03 15:19:17.460078",
+  "must_be_whole_number": 0,
+  "name": "Kilocalorie",
+  "uom_name": "Kilocalorie"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "UOM",
+  "enabled": 1,
+  "modified": "2023-02-03 15:19:17.460783",
+  "must_be_whole_number": 0,
+  "name": "Kilowatt-Hour",
+  "uom_name": "Kilowatt-Hour"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "UOM",
+  "enabled": 1,
+  "modified": "2023-02-03 15:19:17.461539",
+  "must_be_whole_number": 0,
+  "name": "Litre-Atmosphere",
+  "uom_name": "Litre-Atmosphere"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "UOM",
+  "enabled": 1,
+  "modified": "2023-02-03 15:19:17.462290",
+  "must_be_whole_number": 0,
+  "name": "Megajoule",
+  "uom_name": "Megajoule"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "UOM",
+  "enabled": 1,
+  "modified": "2023-02-03 15:19:17.463030",
+  "must_be_whole_number": 0,
+  "name": "Watt-Hour",
+  "uom_name": "Watt-Hour"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "UOM",
+  "enabled": 1,
+  "modified": "2023-02-03 15:19:17.463768",
+  "must_be_whole_number": 0,
+  "name": "Btu/Hour",
+  "uom_name": "Btu/Hour"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "UOM",
+  "enabled": 1,
+  "modified": "2023-02-03 15:19:17.464464",
+  "must_be_whole_number": 0,
+  "name": "Btu/Minutes",
+  "uom_name": "Btu/Minutes"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "UOM",
+  "enabled": 1,
+  "modified": "2023-02-03 15:19:17.465112",
+  "must_be_whole_number": 0,
+  "name": "Btu/Seconds",
+  "uom_name": "Btu/Seconds"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "UOM",
+  "enabled": 1,
+  "modified": "2023-02-03 15:19:17.465756",
+  "must_be_whole_number": 0,
+  "name": "Calorie/Seconds",
+  "uom_name": "Calorie/Seconds"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "UOM",
+  "enabled": 1,
+  "modified": "2023-02-03 15:19:17.466398",
+  "must_be_whole_number": 0,
+  "name": "Horsepower",
+  "uom_name": "Horsepower"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "UOM",
+  "enabled": 1,
+  "modified": "2023-02-03 15:19:17.467036",
+  "must_be_whole_number": 0,
+  "name": "Kilowatt",
+  "uom_name": "Kilowatt"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "UOM",
+  "enabled": 1,
+  "modified": "2023-02-03 15:19:17.467674",
+  "must_be_whole_number": 0,
+  "name": "Megawatt",
+  "uom_name": "Megawatt"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "UOM",
+  "enabled": 1,
+  "modified": "2023-02-03 15:19:17.468347",
+  "must_be_whole_number": 0,
+  "name": "Volt-Ampere",
+  "uom_name": "Volt-Ampere"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "UOM",
+  "enabled": 1,
+  "modified": "2023-02-03 15:19:17.469086",
+  "must_be_whole_number": 0,
+  "name": "Watt",
+  "uom_name": "Watt"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "UOM",
+  "enabled": 1,
+  "modified": "2023-02-03 15:19:17.469825",
+  "must_be_whole_number": 0,
+  "name": "Centigram/Litre",
+  "uom_name": "Centigram/Litre"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "UOM",
+  "enabled": 1,
+  "modified": "2023-02-03 15:19:17.470562",
+  "must_be_whole_number": 0,
+  "name": "Decigram/Litre",
+  "uom_name": "Decigram/Litre"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "UOM",
+  "enabled": 1,
+  "modified": "2023-02-03 15:19:17.471270",
+  "must_be_whole_number": 0,
+  "name": "Dekagram/Litre",
+  "uom_name": "Dekagram/Litre"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "UOM",
+  "enabled": 1,
+  "modified": "2023-02-03 15:19:17.472007",
+  "must_be_whole_number": 0,
+  "name": "Hectogram/Litre",
+  "uom_name": "Hectogram/Litre"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "UOM",
+  "enabled": 1,
+  "modified": "2023-02-03 15:19:17.472752",
+  "must_be_whole_number": 0,
+  "name": "Gram/Cubic Meter",
+  "uom_name": "Gram/Cubic Meter"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "UOM",
+  "enabled": 1,
+  "modified": "2023-02-03 15:19:17.473494",
+  "must_be_whole_number": 0,
+  "name": "Gram/Cubic Centimeter",
+  "uom_name": "Gram/Cubic Centimeter"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "UOM",
+  "enabled": 1,
+  "modified": "2023-02-03 15:19:17.475247",
+  "must_be_whole_number": 0,
+  "name": "Gram/Cubic Millimeter",
+  "uom_name": "Gram/Cubic Millimeter"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "UOM",
+  "enabled": 1,
+  "modified": "2023-02-03 15:19:17.475921",
+  "must_be_whole_number": 0,
+  "name": "Gram/Litre",
+  "uom_name": "Gram/Litre"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "UOM",
+  "enabled": 1,
+  "modified": "2023-02-03 15:19:17.476658",
+  "must_be_whole_number": 0,
+  "name": "Grain/Gallon (US)",
+  "uom_name": "Grain/Gallon (US)"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "UOM",
+  "enabled": 1,
+  "modified": "2023-02-03 15:19:17.477368",
+  "must_be_whole_number": 0,
+  "name": "Grain/Gallon (UK)",
+  "uom_name": "Grain/Gallon (UK)"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "UOM",
+  "enabled": 1,
+  "modified": "2023-02-03 15:19:17.478026",
+  "must_be_whole_number": 0,
+  "name": "Grain/Cubic Foot",
+  "uom_name": "Grain/Cubic Foot"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "UOM",
+  "enabled": 1,
+  "modified": "2023-02-03 15:19:17.478698",
+  "must_be_whole_number": 0,
+  "name": "Kilogram/Cubic Meter",
+  "uom_name": "Kilogram/Cubic Meter"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "UOM",
+  "enabled": 1,
+  "modified": "2023-02-03 15:19:17.479351",
+  "must_be_whole_number": 0,
+  "name": "Kilogram/Cubic Centimeter",
+  "uom_name": "Kilogram/Cubic Centimeter"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "UOM",
+  "enabled": 1,
+  "modified": "2023-02-03 15:19:17.479998",
+  "must_be_whole_number": 0,
+  "name": "Kilogram/Litre",
+  "uom_name": "Kilogram/Litre"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "UOM",
+  "enabled": 1,
+  "modified": "2023-02-03 15:19:17.480683",
+  "must_be_whole_number": 0,
+  "name": "Milligram/Cubic Meter",
+  "uom_name": "Milligram/Cubic Meter"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "UOM",
+  "enabled": 1,
+  "modified": "2023-02-03 15:19:17.481332",
+  "must_be_whole_number": 0,
+  "name": "Milligram/Cubic Centimeter",
+  "uom_name": "Milligram/Cubic Centimeter"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "UOM",
+  "enabled": 1,
+  "modified": "2023-02-03 15:19:17.482005",
+  "must_be_whole_number": 0,
+  "name": "Milligram/Cubic Millimeter",
+  "uom_name": "Milligram/Cubic Millimeter"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "UOM",
+  "enabled": 1,
+  "modified": "2023-02-03 15:19:17.482736",
+  "must_be_whole_number": 0,
+  "name": "Megagram/Litre",
+  "uom_name": "Megagram/Litre"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "UOM",
+  "enabled": 1,
+  "modified": "2023-02-03 15:19:17.483492",
+  "must_be_whole_number": 0,
+  "name": "Milligram/Litre",
+  "uom_name": "Milligram/Litre"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "UOM",
+  "enabled": 1,
+  "modified": "2023-02-03 15:19:17.484199",
+  "must_be_whole_number": 0,
+  "name": "Microgram/Litre",
+  "uom_name": "Microgram/Litre"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "UOM",
+  "enabled": 1,
+  "modified": "2023-02-03 15:19:17.484994",
+  "must_be_whole_number": 0,
+  "name": "Nanogram/Litre",
+  "uom_name": "Nanogram/Litre"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "UOM",
+  "enabled": 1,
+  "modified": "2023-02-03 15:19:17.485745",
+  "must_be_whole_number": 0,
+  "name": "Ounce/Cubic Inch",
+  "uom_name": "Ounce/Cubic Inch"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "UOM",
+  "enabled": 1,
+  "modified": "2023-02-03 15:19:17.486492",
+  "must_be_whole_number": 0,
+  "name": "Ounce/Cubic Foot",
+  "uom_name": "Ounce/Cubic Foot"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "UOM",
+  "enabled": 1,
+  "modified": "2023-02-03 15:19:17.487233",
+  "must_be_whole_number": 0,
+  "name": "Ounce/Gallon (US)",
+  "uom_name": "Ounce/Gallon (US)"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "UOM",
+  "enabled": 1,
+  "modified": "2023-02-03 15:19:17.487973",
+  "must_be_whole_number": 0,
+  "name": "Ounce/Gallon (UK)",
+  "uom_name": "Ounce/Gallon (UK)"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "UOM",
+  "enabled": 1,
+  "modified": "2023-02-03 15:19:17.488718",
+  "must_be_whole_number": 0,
+  "name": "Pound/Cubic Inch",
+  "uom_name": "Pound/Cubic Inch"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "UOM",
+  "enabled": 1,
+  "modified": "2023-02-03 15:19:17.489456",
+  "must_be_whole_number": 0,
+  "name": "Pound/Cubic Foot",
+  "uom_name": "Pound/Cubic Foot"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "UOM",
+  "enabled": 1,
+  "modified": "2023-02-03 15:19:17.490197",
+  "must_be_whole_number": 0,
+  "name": "Pound/Cubic Yard",
+  "uom_name": "Pound/Cubic Yard"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "UOM",
+  "enabled": 1,
+  "modified": "2023-02-03 15:19:17.490939",
+  "must_be_whole_number": 0,
+  "name": "Pound/Gallon (US)",
+  "uom_name": "Pound/Gallon (US)"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "UOM",
+  "enabled": 1,
+  "modified": "2023-02-03 15:19:17.491735",
+  "must_be_whole_number": 0,
+  "name": "Pound/Gallon (UK)",
+  "uom_name": "Pound/Gallon (UK)"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "UOM",
+  "enabled": 1,
+  "modified": "2023-02-03 15:19:17.492426",
+  "must_be_whole_number": 0,
+  "name": "Psi/1000 Feet",
+  "uom_name": "Psi/1000 Feet"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "UOM",
+  "enabled": 1,
+  "modified": "2023-02-03 15:19:17.493124",
+  "must_be_whole_number": 0,
+  "name": "Slug/Cubic Foot",
+  "uom_name": "Slug/Cubic Foot"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "UOM",
+  "enabled": 1,
+  "modified": "2023-02-03 15:19:17.493863",
+  "must_be_whole_number": 0,
+  "name": "Ton (Short)/Cubic Yard",
+  "uom_name": "Ton (Short)/Cubic Yard"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "UOM",
+  "enabled": 1,
+  "modified": "2023-02-03 15:19:17.494602",
+  "must_be_whole_number": 0,
+  "name": "Ton (Long)/Cubic Yard",
+  "uom_name": "Ton (Long)/Cubic Yard"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "UOM",
+  "enabled": 1,
+  "modified": "2023-02-03 15:19:17.495342",
+  "must_be_whole_number": 0,
+  "name": "Celsius",
+  "uom_name": "Celsius"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "UOM",
+  "enabled": 1,
+  "modified": "2023-02-03 15:19:17.496071",
+  "must_be_whole_number": 0,
+  "name": "Fahrenheit",
+  "uom_name": "Fahrenheit"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "UOM",
+  "enabled": 1,
+  "modified": "2023-02-03 15:19:17.496797",
+  "must_be_whole_number": 0,
+  "name": "Kelvin",
+  "uom_name": "Kelvin"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "UOM",
+  "enabled": 1,
+  "modified": "2023-02-03 15:19:17.497530",
+  "must_be_whole_number": 0,
+  "name": "Cycle/Second",
+  "uom_name": "Cycle/Second"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "UOM",
+  "enabled": 1,
+  "modified": "2023-02-03 15:19:17.498550",
+  "must_be_whole_number": 0,
+  "name": "Nanohertz",
+  "uom_name": "Nanohertz"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "UOM",
+  "enabled": 1,
+  "modified": "2023-02-03 15:19:17.499287",
+  "must_be_whole_number": 0,
+  "name": "Millihertz",
+  "uom_name": "Millihertz"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "UOM",
+  "enabled": 1,
+  "modified": "2023-02-03 15:19:17.500025",
+  "must_be_whole_number": 0,
+  "name": "Hertz",
+  "uom_name": "Hertz"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "UOM",
+  "enabled": 1,
+  "modified": "2023-02-03 15:19:17.500761",
+  "must_be_whole_number": 0,
+  "name": "Kilohertz",
+  "uom_name": "Kilohertz"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "UOM",
+  "enabled": 1,
+  "modified": "2023-02-03 15:19:17.501501",
+  "must_be_whole_number": 0,
+  "name": "Megahertz",
+  "uom_name": "Megahertz"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "UOM",
+  "enabled": 1,
+  "modified": "2023-02-03 15:19:17.502238",
+  "must_be_whole_number": 0,
+  "name": "Wavelength In Gigametres",
+  "uom_name": "Wavelength In Gigametres"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "UOM",
+  "enabled": 1,
+  "modified": "2023-02-03 15:19:17.502975",
+  "must_be_whole_number": 0,
+  "name": "Wavelength In Megametres",
+  "uom_name": "Wavelength In Megametres"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "UOM",
+  "enabled": 1,
+  "modified": "2023-02-03 15:19:17.503678",
+  "must_be_whole_number": 0,
+  "name": "Wavelength In Kilometres",
+  "uom_name": "Wavelength In Kilometres"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "UOM",
+  "enabled": 1,
+  "modified": "2023-02-03 15:19:17.504362",
+  "must_be_whole_number": 0,
+  "name": "Ampere-Hour",
+  "uom_name": "Ampere-Hour"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "UOM",
+  "enabled": 1,
+  "modified": "2023-02-03 15:19:17.505100",
+  "must_be_whole_number": 0,
+  "name": "Ampere-Minute",
+  "uom_name": "Ampere-Minute"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "UOM",
+  "enabled": 1,
+  "modified": "2023-02-03 15:19:17.505841",
+  "must_be_whole_number": 0,
+  "name": "Ampere-Second",
+  "uom_name": "Ampere-Second"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "UOM",
+  "enabled": 1,
+  "modified": "2023-02-03 15:19:17.506575",
+  "must_be_whole_number": 0,
+  "name": "Coulomb",
+  "uom_name": "Coulomb"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "UOM",
+  "enabled": 1,
+  "modified": "2023-02-03 15:19:17.507317",
+  "must_be_whole_number": 0,
+  "name": "EMU Of Charge",
+  "uom_name": "EMU Of Charge"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "UOM",
+  "enabled": 1,
+  "modified": "2023-02-03 15:19:17.507976",
+  "must_be_whole_number": 0,
+  "name": "Faraday",
+  "uom_name": "Faraday"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "UOM",
+  "enabled": 1,
+  "modified": "2023-02-03 15:19:17.508712",
+  "must_be_whole_number": 0,
+  "name": "Kilocoulomb",
+  "uom_name": "Kilocoulomb"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "UOM",
+  "enabled": 1,
+  "modified": "2023-02-03 15:19:17.509453",
+  "must_be_whole_number": 0,
+  "name": "Megacoulomb",
+  "uom_name": "Megacoulomb"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "UOM",
+  "enabled": 1,
+  "modified": "2023-02-03 15:19:17.510189",
+  "must_be_whole_number": 0,
+  "name": "Millicoulomb",
+  "uom_name": "Millicoulomb"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "UOM",
+  "enabled": 1,
+  "modified": "2023-02-03 15:19:17.510930",
+  "must_be_whole_number": 0,
+  "name": "Nanocoulomb",
+  "uom_name": "Nanocoulomb"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "UOM",
+  "enabled": 1,
+  "modified": "2023-02-03 15:19:17.511584",
+  "must_be_whole_number": 0,
+  "name": "Ampere",
+  "uom_name": "Ampere"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "UOM",
+  "enabled": 1,
+  "modified": "2023-02-03 15:19:17.512227",
+  "must_be_whole_number": 0,
+  "name": "Abampere",
+  "uom_name": "Abampere"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "UOM",
+  "enabled": 1,
+  "modified": "2023-02-03 15:19:17.513001",
+  "must_be_whole_number": 0,
+  "name": "Biot",
+  "uom_name": "Biot"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "UOM",
+  "enabled": 1,
+  "modified": "2023-02-03 15:19:17.513657",
+  "must_be_whole_number": 0,
+  "name": "EMU of current",
+  "uom_name": "EMU of current"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "UOM",
+  "enabled": 1,
+  "modified": "2023-02-03 15:19:17.514304",
+  "must_be_whole_number": 0,
+  "name": "Kiloampere",
+  "uom_name": "Kiloampere"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "UOM",
+  "enabled": 1,
+  "modified": "2023-02-03 15:19:17.514947",
+  "must_be_whole_number": 0,
+  "name": "Milliampere",
+  "uom_name": "Milliampere"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "UOM",
+  "enabled": 1,
+  "modified": "2023-02-03 15:19:17.515586",
+  "must_be_whole_number": 0,
+  "name": "Gamma",
+  "uom_name": "Gamma"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "UOM",
+  "enabled": 1,
+  "modified": "2023-02-03 15:19:17.516222",
+  "must_be_whole_number": 0,
+  "name": "Gauss",
+  "uom_name": "Gauss"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "UOM",
+  "enabled": 1,
+  "modified": "2023-02-03 15:19:17.516873",
+  "must_be_whole_number": 0,
+  "name": "Tesla",
+  "uom_name": "Tesla"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "UOM",
+  "enabled": 1,
+  "modified": "2023-02-03 15:19:17.517516",
+  "must_be_whole_number": 0,
+  "name": "Percent",
+  "uom_name": "Percent"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "UOM",
+  "enabled": 1,
+  "modified": "2023-02-03 15:19:17.518283",
+  "must_be_whole_number": 0,
+  "name": "Parts Per Million",
+  "uom_name": "Parts Per Million"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "UOM",
+  "enabled": 1,
+  "modified": "2023-02-03 16:38:30.149061",
+  "must_be_whole_number": 0,
+  "name": "MTS",
+  "uom_name": "MTS"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "UOM",
+  "enabled": 1,
+  "modified": "2023-02-03 16:38:59.470705",
+  "must_be_whole_number": 0,
+  "name": "Litres",
+  "uom_name": "Litres"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "UOM",
+  "enabled": 1,
+  "modified": "2023-02-03 16:39:08.593106",
+  "must_be_whole_number": 0,
+  "name": "Kilo-Litres",
+  "uom_name": "Kilo-Litres"
+ }
+]

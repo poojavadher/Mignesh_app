@@ -1,0 +1,156 @@
+[
+ {
+  "docstatus": 0,
+  "doctype": "Workflow",
+  "document_type": "Purchase Order",
+  "is_active": 1,
+  "modified": "2023-02-09 13:00:41.867586",
+  "name": "Purchase Order Approve Process",
+  "override_status": 0,
+  "send_email_alert": 0,
+  "states": [
+   {
+    "allow_edit": "Purchase User",
+    "doc_status": "0",
+    "is_optional_state": 0,
+    "message": null,
+    "next_action_email_template": null,
+    "parent": "Purchase Order Approve Process",
+    "parentfield": "states",
+    "parenttype": "Workflow",
+    "state": "Non-Approved",
+    "update_field": "status",
+    "update_value": "Non-Approved"
+   },
+   {
+    "allow_edit": "Purchase Order Approver",
+    "doc_status": "1",
+    "is_optional_state": 0,
+    "message": null,
+    "next_action_email_template": null,
+    "parent": "Purchase Order Approve Process",
+    "parentfield": "states",
+    "parenttype": "Workflow",
+    "state": "Approved",
+    "update_field": "status",
+    "update_value": "Approved"
+   },
+   {
+    "allow_edit": "Purchase Order Approver",
+    "doc_status": "2",
+    "is_optional_state": 0,
+    "message": null,
+    "next_action_email_template": null,
+    "parent": "Purchase Order Approve Process",
+    "parentfield": "states",
+    "parenttype": "Workflow",
+    "state": "Cancelled",
+    "update_field": "status",
+    "update_value": "Cancelled"
+   }
+  ],
+  "transitions": [
+   {
+    "action": "Approve",
+    "allow_self_approval": 1,
+    "allowed": "Purchase Order Approver",
+    "condition": null,
+    "next_state": "Approved",
+    "parent": "Purchase Order Approve Process",
+    "parentfield": "transitions",
+    "parenttype": "Workflow",
+    "state": "Non-Approved"
+   },
+   {
+    "action": "Cancel",
+    "allow_self_approval": 1,
+    "allowed": "Purchase Order Approver",
+    "condition": null,
+    "next_state": "Cancelled",
+    "parent": "Purchase Order Approve Process",
+    "parentfield": "transitions",
+    "parenttype": "Workflow",
+    "state": "Approved"
+   }
+  ],
+  "workflow_name": "Purchase Order Approve Process",
+  "workflow_state_field": "workflow_state"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow",
+  "document_type": "Sales Order",
+  "is_active": 1,
+  "modified": "2023-02-10 16:33:38.175456",
+  "name": "Sales Order Approve Process",
+  "override_status": 0,
+  "send_email_alert": 0,
+  "states": [
+   {
+    "allow_edit": "Sales User",
+    "doc_status": "0",
+    "is_optional_state": 0,
+    "message": null,
+    "next_action_email_template": null,
+    "parent": "Sales Order Approve Process",
+    "parentfield": "states",
+    "parenttype": "Workflow",
+    "state": "Non-Approved",
+    "update_field": "status",
+    "update_value": "Non-Approved"
+   },
+   {
+    "allow_edit": "Sales Manager",
+    "doc_status": "1",
+    "is_optional_state": 0,
+    "message": null,
+    "next_action_email_template": null,
+    "parent": "Sales Order Approve Process",
+    "parentfield": "states",
+    "parenttype": "Workflow",
+    "state": "Approved",
+    "update_field": "status",
+    "update_value": "Approved"
+   },
+   {
+    "allow_edit": "Sales Manager",
+    "doc_status": "2",
+    "is_optional_state": 0,
+    "message": null,
+    "next_action_email_template": null,
+    "parent": "Sales Order Approve Process",
+    "parentfield": "states",
+    "parenttype": "Workflow",
+    "state": "Cancelled",
+    "update_field": "status",
+    "update_value": "Cancelled"
+   }
+  ],
+  "transitions": [
+   {
+    "action": "Approve",
+    "allow_self_approval": 1,
+    "allowed": "Sales Manager",
+    "condition": null,
+    "next_state": "Approved",
+    "parent": "Sales Order Approve Process",
+    "parentfield": "transitions",
+    "parenttype": "Workflow",
+    "state": "Non-Approved"
+   },
+   {
+    "action": "Cancel",
+    "allow_self_approval": 1,
+    "allowed": "Sales Manager",
+    "condition": null,
+    "next_state": "Cancelled",
+    "parent": "Sales Order Approve Process",
+    "parentfield": "transitions",
+    "parenttype": "Workflow",
+    "state": "Approved"
+   }
+  ],
+  "workflow_name": "Sales Order Approve Process",
+  "workflow_state_field": "workflow_state"
+ }
+]
