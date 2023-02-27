@@ -1,6 +1,6 @@
 {
  "charts": [],
- "content": "[{\"id\":\"rsvrtKzLQx\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>Your Shortcuts</b></span>\",\"col\":12}},{\"id\":\"MwoiETlZIo\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Vehicle\",\"col\":3}},{\"id\":\"usM79uFSOT\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Loading Request\",\"col\":3}},{\"id\":\"nWjhyKaQqF\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Vehicle Trip\",\"col\":3}},{\"id\":\"TwUyFXbci_\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Customer\",\"col\":3}},{\"id\":\"UDzfm3UAsE\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Supplier\",\"col\":3}},{\"id\":\"-RXoF7l1pz\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"-mkhcEhegk\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>Reports &amp; Masters</b></span>\",\"col\":12}},{\"id\":\"u0IQLKHn2f\",\"type\":\"card\",\"data\":{\"card_name\":\"Masters\",\"col\":4}},{\"id\":\"WF1ZHXF8UE\",\"type\":\"card\",\"data\":{\"card_name\":\"Reports\",\"col\":4}}]",
+ "content": "[{\"id\":\"rsvrtKzLQx\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>Your Shortcuts</b></span>\",\"col\":12}},{\"id\":\"MwoiETlZIo\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Vehicle\",\"col\":3}},{\"id\":\"usM79uFSOT\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Loading Request\",\"col\":3}},{\"id\":\"nWjhyKaQqF\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Vehicle Trip\",\"col\":3}},{\"id\":\"TwUyFXbci_\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Customer\",\"col\":3}},{\"id\":\"UDzfm3UAsE\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Supplier\",\"col\":3}},{\"id\":\"-RXoF7l1pz\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"-mkhcEhegk\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>Reports &amp; Masters</b></span>\",\"col\":12}},{\"id\":\"u0IQLKHn2f\",\"type\":\"card\",\"data\":{\"card_name\":\"Masters\",\"col\":4}},{\"id\":\"j6eNMOWRvz\",\"type\":\"card\",\"data\":{\"card_name\":\"Reports\",\"col\":4}}]",
  "creation": "2023-02-27 12:48:10.931593",
  "docstatus": 0,
  "doctype": "Workspace",
@@ -256,16 +256,16 @@
   },
   {
    "hidden": 0,
-   "is_query_report": 0,
-   "label": "Stock Report Location Wise",
+   "is_query_report": 1,
+   "label": "Purchase Analytics",
    "link_count": 0,
-   "link_to": "Stock Report Location Wise",
+   "link_to": "Purchase Analytics",
    "link_type": "Report",
    "onboard": 0,
    "type": "Link"
   }
  ],
- "modified": "2023-02-27 14:54:46.583158",
+ "modified": "2023-02-27 16:54:06.233493",
  "modified_by": "Administrator",
  "module": "Mignesh",
  "name": "Mignesh",
