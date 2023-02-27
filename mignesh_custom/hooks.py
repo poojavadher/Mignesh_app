@@ -209,6 +209,13 @@ fixtures=[
     "Item",
     "Location",
     "Packing List",
+    {"dt":"Workspace","filters":[
+        [
+            "module","in",[
+               "Mignesh"
+            ]
+        ]
+    ]},
     {"dt":"User","filters":[
         [
             "email","in",[
