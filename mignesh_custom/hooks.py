@@ -233,7 +233,7 @@ fixtures=[
      {"dt":"Dashboard Chart","filters":[
         [
             "name","in",[
-               "Location Wise Stock"
+               "Location Wise Stock",
                "Purchase Analytics"
             ]
         ]
