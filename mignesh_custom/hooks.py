@@ -234,6 +234,7 @@ fixtures=[
         [
             "name","in",[
                "Location Wise Stock"
+               "Purchase Analytics"
             ]
         ]
     ]},
