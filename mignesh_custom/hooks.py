@@ -201,7 +201,6 @@ fixtures=[
     "Vehicle",
     "Supplier",
     "Customer",
-    "Vehicle Trip",
     "Property Setter",
     "Loading Request",
     "Document Naming Rule",
