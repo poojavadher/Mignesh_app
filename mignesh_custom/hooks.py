@@ -209,6 +209,7 @@ fixtures=[
     "Item Group",
     "Location",
     "Packing List",
+    "Vehicle Trip",
     {"dt":"Workspace","filters":[
         [
             "module","in",[
