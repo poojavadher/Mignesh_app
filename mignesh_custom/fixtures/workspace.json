@@ -1,7 +1,7 @@
 [
  {
   "charts": [],
-  "content": "[{\"id\":\"rsvrtKzLQx\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>Your Shortcuts</b></span>\",\"col\":12}},{\"id\":\"MwoiETlZIo\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Vehicle\",\"col\":3}},{\"id\":\"usM79uFSOT\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Loading Request\",\"col\":3}},{\"id\":\"nWjhyKaQqF\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Vehicle Trip\",\"col\":3}},{\"id\":\"TwUyFXbci_\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Customer\",\"col\":3}},{\"id\":\"UDzfm3UAsE\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Supplier\",\"col\":3}},{\"id\":\"-RXoF7l1pz\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"-mkhcEhegk\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>Reports &amp; Masters</b></span>\",\"col\":12}},{\"id\":\"u0IQLKHn2f\",\"type\":\"card\",\"data\":{\"card_name\":\"Masters\",\"col\":4}},{\"id\":\"j6eNMOWRvz\",\"type\":\"card\",\"data\":{\"card_name\":\"Reports\",\"col\":4}}]",
+  "content": "[{\"id\":\"rsvrtKzLQx\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>Your Shortcuts</b></span>\",\"col\":12}},{\"id\":\"MwoiETlZIo\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Vehicle\",\"col\":3}},{\"id\":\"usM79uFSOT\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Loading Request\",\"col\":3}},{\"id\":\"nWjhyKaQqF\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Vehicle Trip\",\"col\":3}},{\"id\":\"TwUyFXbci_\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Customer\",\"col\":3}},{\"id\":\"UDzfm3UAsE\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Supplier\",\"col\":3}},{\"id\":\"naRxhhbtBG\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Dashboard\",\"col\":3}},{\"id\":\"-RXoF7l1pz\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"-mkhcEhegk\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>Reports &amp; Masters</b></span>\",\"col\":12}},{\"id\":\"u0IQLKHn2f\",\"type\":\"card\",\"data\":{\"card_name\":\"Masters\",\"col\":4}},{\"id\":\"j6eNMOWRvz\",\"type\":\"card\",\"data\":{\"card_name\":\"Reports\",\"col\":4}}]",
   "docstatus": 0,
   "doctype": "Workspace",
   "for_user": "",
@@ -395,7 +395,7 @@
     "type": "Link"
    }
   ],
-  "modified": "2023-02-27 18:43:45.057402",
+  "modified": "2023-02-28 12:07:07.634762",
   "module": "Mignesh",
   "name": "Mignesh",
   "parent_page": "",
@@ -405,6 +405,20 @@
   "roles": [],
   "sequence_id": 2.0,
   "shortcuts": [
+   {
+    "color": "Grey",
+    "doc_view": "List",
+    "format": null,
+    "icon": null,
+    "label": "Dashboard",
+    "link_to": "Mignesh",
+    "parent": "Mignesh",
+    "parentfield": "shortcuts",
+    "parenttype": "Workspace",
+    "restrict_to_domain": null,
+    "stats_filter": null,
+    "type": "Dashboard"
+   },
    {
     "color": null,
     "doc_view": "",

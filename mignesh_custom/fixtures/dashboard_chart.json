@@ -1,0 +1,47 @@
+[
+ {
+  "aggregate_function_based_on": null,
+  "based_on": null,
+  "chart_name": "Location Wise Stock",
+  "chart_type": "Report",
+  "color": null,
+  "custom_options": "{\"x_field\": \"loading_location\", \"chart_type\": \"Bar\", \"y_axis_fields\": [{\"idx\": 1, \"__islocal\": true, \"name\": \"row 1\", \"y_field\": \"pending_quentity\", \"color\": \"#449CF0\"}], \"y_fields\": [\"pending_quentity\"], \"colors\": [\"#449CF0\"]}",
+  "docstatus": 0,
+  "doctype": "Dashboard Chart",
+  "document_type": null,
+  "dynamic_filters_json": null,
+  "filters_json": "{}",
+  "from_date": null,
+  "group_by_based_on": null,
+  "group_by_type": "Count",
+  "heatmap_year": null,
+  "is_public": 0,
+  "is_standard": 0,
+  "last_synced_on": null,
+  "modified": "2023-02-28 12:06:11.613021",
+  "module": null,
+  "name": "Location Wise Stock",
+  "number_of_groups": 0,
+  "parent_document_type": null,
+  "report_name": "Stock Report Location Wise",
+  "roles": [],
+  "source": null,
+  "time_interval": "Yearly",
+  "timeseries": 0,
+  "timespan": "Last Year",
+  "to_date": null,
+  "type": "Bar",
+  "use_report_chart": 0,
+  "value_based_on": null,
+  "x_field": "loading_location",
+  "y_axis": [
+   {
+    "color": "#449CF0",
+    "parent": "Location Wise Stock",
+    "parentfield": "y_axis",
+    "parenttype": "Dashboard Chart",
+    "y_field": "pending_quentity"
+   }
+  ]
+ }
+]

@@ -1,0 +1,43 @@
+[
+ {
+  "cards": [
+   {
+    "card": "Vehicle Trip",
+    "parent": "Mignesh",
+    "parentfield": "cards",
+    "parenttype": "Dashboard"
+   },
+   {
+    "card": "Loading Requests",
+    "parent": "Mignesh",
+    "parentfield": "cards",
+    "parenttype": "Dashboard"
+   }
+  ],
+  "chart_options": null,
+  "charts": [
+   {
+    "chart": "Location Wise Stock",
+    "parent": "Mignesh",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Full"
+   },
+   {
+    "chart": "Puchase Analytics",
+    "parent": "Mignesh",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Full"
+   }
+  ],
+  "dashboard_name": "Mignesh",
+  "docstatus": 0,
+  "doctype": "Dashboard",
+  "is_default": 0,
+  "is_standard": 0,
+  "modified": "2023-02-28 12:35:00.432440",
+  "module": "Mignesh",
+  "name": "Mignesh"
+ }
+]

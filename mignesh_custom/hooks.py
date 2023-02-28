@@ -223,5 +223,26 @@ fixtures=[
                "Mignesh"
             ]
         ]
+    ]},
+    {"dt":"Number Card","filters":[
+        [
+            "module","in",[
+               "Mignesh"
+            ]
+        ]
+    ]},
+     {"dt":"Dashboard Chart","filters":[
+        [
+            "name","in",[
+               "Location Wise Stock"
+            ]
+        ]
+    ]},
+    {"dt":"Dashboard","filters":[
+        [
+            "module","in",[
+               "Mignesh"
+            ]
+        ]
     ]}
 ]
