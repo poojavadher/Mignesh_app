@@ -217,19 +217,6 @@ fixtures=[
             ]
         ]
     ]},
-    {"dt":"User","filters":[
-        [
-            "email","in",[
-                "jayghetiya@gmail.com",
-                "poonam@gmail.com",
-                "arjun@gmail.com",
-                "poojavadher24@gmail.com",
-                "himanshu@gmail.com",
-                "ravi@gmail.com",
-                "jaymakadia@gmail.com"
-            ]
-        ]
-    ]},
     {"dt":"Notification","filters":[
         [
             "module","in",[
