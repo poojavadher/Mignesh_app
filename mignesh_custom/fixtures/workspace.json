@@ -6,9 +6,9 @@
   "doctype": "Workspace",
   "for_user": "",
   "hide_custom": 0,
-  "icon": "unhide",
+  "icon": "quantity-1",
   "is_hidden": 0,
-  "label": "Mignesh",
+  "label": "Logistic",
   "links": [
    {
     "dependencies": "",
@@ -21,7 +21,7 @@
     "link_type": "DocType",
     "onboard": 1,
     "only_for": null,
-    "parent": "Mignesh",
+    "parent": "Logistic",
     "parentfield": "links",
     "parenttype": "Workspace",
     "type": "Link"
@@ -37,7 +37,7 @@
     "link_type": "DocType",
     "onboard": 1,
     "only_for": null,
-    "parent": "Mignesh",
+    "parent": "Logistic",
     "parentfield": "links",
     "parenttype": "Workspace",
     "type": "Link"
@@ -53,7 +53,7 @@
     "link_type": "DocType",
     "onboard": 1,
     "only_for": null,
-    "parent": "Mignesh",
+    "parent": "Logistic",
     "parentfield": "links",
     "parenttype": "Workspace",
     "type": "Link"
@@ -69,7 +69,7 @@
     "link_type": "DocType",
     "onboard": 1,
     "only_for": null,
-    "parent": "Mignesh",
+    "parent": "Logistic",
     "parentfield": "links",
     "parenttype": "Workspace",
     "type": "Link"
@@ -85,7 +85,7 @@
     "link_type": "DocType",
     "onboard": 1,
     "only_for": null,
-    "parent": "Mignesh",
+    "parent": "Logistic",
     "parentfield": "links",
     "parenttype": "Workspace",
     "type": "Link"
@@ -101,7 +101,7 @@
     "link_type": "DocType",
     "onboard": 1,
     "only_for": null,
-    "parent": "Mignesh",
+    "parent": "Logistic",
     "parentfield": "links",
     "parenttype": "Workspace",
     "type": "Link"
@@ -117,7 +117,7 @@
     "link_type": "DocType",
     "onboard": 1,
     "only_for": null,
-    "parent": "Mignesh",
+    "parent": "Logistic",
     "parentfield": "links",
     "parenttype": "Workspace",
     "type": "Link"
@@ -133,7 +133,7 @@
     "link_type": "DocType",
     "onboard": 1,
     "only_for": null,
-    "parent": "Mignesh",
+    "parent": "Logistic",
     "parentfield": "links",
     "parenttype": "Workspace",
     "type": "Link"
@@ -149,7 +149,7 @@
     "link_type": "DocType",
     "onboard": 1,
     "only_for": null,
-    "parent": "Mignesh",
+    "parent": "Logistic",
     "parentfield": "links",
     "parenttype": "Workspace",
     "type": "Link"
@@ -165,7 +165,7 @@
     "link_type": "DocType",
     "onboard": 1,
     "only_for": null,
-    "parent": "Mignesh",
+    "parent": "Logistic",
     "parentfield": "links",
     "parenttype": "Workspace",
     "type": "Link"
@@ -181,7 +181,7 @@
     "link_type": "DocType",
     "onboard": 1,
     "only_for": null,
-    "parent": "Mignesh",
+    "parent": "Logistic",
     "parentfield": "links",
     "parenttype": "Workspace",
     "type": "Link"
@@ -197,7 +197,7 @@
     "link_type": "DocType",
     "onboard": 1,
     "only_for": null,
-    "parent": "Mignesh",
+    "parent": "Logistic",
     "parentfield": "links",
     "parenttype": "Workspace",
     "type": "Link"
@@ -213,7 +213,7 @@
     "link_type": "DocType",
     "onboard": 1,
     "only_for": null,
-    "parent": "Mignesh",
+    "parent": "Logistic",
     "parentfield": "links",
     "parenttype": "Workspace",
     "type": "Link"
@@ -229,7 +229,7 @@
     "link_type": "DocType",
     "onboard": 1,
     "only_for": null,
-    "parent": "Mignesh",
+    "parent": "Logistic",
     "parentfield": "links",
     "parenttype": "Workspace",
     "type": "Link"
@@ -245,7 +245,7 @@
     "link_type": "DocType",
     "onboard": 1,
     "only_for": null,
-    "parent": "Mignesh",
+    "parent": "Logistic",
     "parentfield": "links",
     "parenttype": "Workspace",
     "type": "Link"
@@ -261,7 +261,7 @@
     "link_type": "DocType",
     "onboard": 1,
     "only_for": null,
-    "parent": "Mignesh",
+    "parent": "Logistic",
     "parentfield": "links",
     "parenttype": "Workspace",
     "type": "Link"
@@ -277,7 +277,7 @@
     "link_type": "DocType",
     "onboard": 1,
     "only_for": null,
-    "parent": "Mignesh",
+    "parent": "Logistic",
     "parentfield": "links",
     "parenttype": "Workspace",
     "type": "Link"
@@ -293,7 +293,7 @@
     "link_type": null,
     "onboard": 0,
     "only_for": null,
-    "parent": "Mignesh",
+    "parent": "Logistic",
     "parentfield": "links",
     "parenttype": "Workspace",
     "type": "Card Break"
@@ -309,7 +309,7 @@
     "link_type": "DocType",
     "onboard": 0,
     "only_for": null,
-    "parent": "Mignesh",
+    "parent": "Logistic",
     "parentfield": "links",
     "parenttype": "Workspace",
     "type": "Link"
@@ -325,7 +325,7 @@
     "link_type": "DocType",
     "onboard": 0,
     "only_for": null,
-    "parent": "Mignesh",
+    "parent": "Logistic",
     "parentfield": "links",
     "parenttype": "Workspace",
     "type": "Link"
@@ -341,7 +341,7 @@
     "link_type": "DocType",
     "onboard": 0,
     "only_for": null,
-    "parent": "Mignesh",
+    "parent": "Logistic",
     "parentfield": "links",
     "parenttype": "Workspace",
     "type": "Link"
@@ -357,7 +357,7 @@
     "link_type": "DocType",
     "onboard": 0,
     "only_for": null,
-    "parent": "Mignesh",
+    "parent": "Logistic",
     "parentfield": "links",
     "parenttype": "Workspace",
     "type": "Link"
@@ -373,7 +373,7 @@
     "link_type": null,
     "onboard": 0,
     "only_for": null,
-    "parent": "Mignesh",
+    "parent": "Logistic",
     "parentfield": "links",
     "parenttype": "Workspace",
     "type": "Card Break"
@@ -389,15 +389,15 @@
     "link_type": "Report",
     "onboard": 0,
     "only_for": null,
-    "parent": "Mignesh",
+    "parent": "Logistic",
     "parentfield": "links",
     "parenttype": "Workspace",
     "type": "Link"
    }
   ],
-  "modified": "2023-02-28 12:07:07.634762",
+  "modified": "2023-02-28 16:25:01.511339",
   "module": "Mignesh",
-  "name": "Mignesh",
+  "name": "Logistic",
   "parent_page": "",
   "public": 1,
   "quick_lists": [],
@@ -412,7 +412,7 @@
     "icon": null,
     "label": "Dashboard",
     "link_to": "Mignesh",
-    "parent": "Mignesh",
+    "parent": "Logistic",
     "parentfield": "shortcuts",
     "parenttype": "Workspace",
     "restrict_to_domain": null,
@@ -426,7 +426,7 @@
     "icon": null,
     "label": "Vehicle",
     "link_to": "Vehicle",
-    "parent": "Mignesh",
+    "parent": "Logistic",
     "parentfield": "shortcuts",
     "parenttype": "Workspace",
     "restrict_to_domain": null,
@@ -440,7 +440,7 @@
     "icon": null,
     "label": "Loading Request",
     "link_to": "Loading Request",
-    "parent": "Mignesh",
+    "parent": "Logistic",
     "parentfield": "shortcuts",
     "parenttype": "Workspace",
     "restrict_to_domain": null,
@@ -454,7 +454,7 @@
     "icon": null,
     "label": "Vehicle Trip",
     "link_to": "Vehicle Trip",
-    "parent": "Mignesh",
+    "parent": "Logistic",
     "parentfield": "shortcuts",
     "parenttype": "Workspace",
     "restrict_to_domain": null,
@@ -468,7 +468,7 @@
     "icon": null,
     "label": "Customer",
     "link_to": "Customer",
-    "parent": "Mignesh",
+    "parent": "Logistic",
     "parentfield": "shortcuts",
     "parenttype": "Workspace",
     "restrict_to_domain": null,
@@ -482,7 +482,7 @@
     "icon": null,
     "label": "Supplier",
     "link_to": "Supplier",
-    "parent": "Mignesh",
+    "parent": "Logistic",
     "parentfield": "shortcuts",
     "parenttype": "Workspace",
     "restrict_to_domain": null,
@@ -490,6 +490,6 @@
     "type": "DocType"
    }
   ],
-  "title": "Mignesh"
+  "title": "Logistic"
  }
 ]

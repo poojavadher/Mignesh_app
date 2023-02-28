@@ -209,6 +209,7 @@ fixtures=[
     "Location",
     "Packing List",
     "Vehicle Trip",
+    "Custom DocPerm",
     {"dt":"Workspace","filters":[
         [
             "module","in",[
@@ -243,13 +244,6 @@ fixtures=[
                "Mignesh"
             ]
         ]
-    ]}, 
-    {"dt":"Document Naming Rule","filters":[
-        [
-            "document_type","in",[
-               "Vehicle Trip",
-               "Loading Request"
-            ]
-        ]
     ]}
+    
 ]

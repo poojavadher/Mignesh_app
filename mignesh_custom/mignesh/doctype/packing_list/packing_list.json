@@ -31,7 +31,7 @@
  "index_web_pages_for_search": 1,
  "is_submittable": 1,
  "links": [],
- "modified": "2023-02-23 15:55:44.995434",
+ "modified": "2023-02-28 17:08:39.699555",
  "modified_by": "Administrator",
  "module": "Mignesh",
  "name": "Packing List",
@@ -47,6 +47,7 @@
    "read": 1,
    "report": 1,
    "role": "System Manager",
+   "select": 1,
    "share": 1,
    "write": 1
   },
@@ -59,6 +60,7 @@
    "read": 1,
    "report": 1,
    "role": "Sales User",
+   "select": 1,
    "share": 1,
    "write": 1
   },
@@ -71,6 +73,33 @@
    "read": 1,
    "report": 1,
    "role": "Sales Manager",
+   "select": 1,
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Purchase User",
+   "select": 1,
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Purchase Manager",
+   "select": 1,
    "share": 1,
    "write": 1
   }
