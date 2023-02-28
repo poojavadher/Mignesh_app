@@ -232,9 +232,8 @@ fixtures=[
     ]},
      {"dt":"Dashboard Chart","filters":[
         [
-            "name","in",[
-               "Location Wise Stock",
-               "Purchase Analytics"
+            "module","in",[
+               "Mignesh"
             ]
         ]
     ]},
