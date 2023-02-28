@@ -203,7 +203,6 @@ fixtures=[
     "Customer",
     "Property Setter",
     "Loading Request",
-    "Document Naming Rule",
     "UOM",
     "Item",
     "Item Group",
