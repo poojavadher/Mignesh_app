@@ -243,5 +243,13 @@ fixtures=[
                "Mignesh"
             ]
         ]
+    ]}, 
+    {"dt":"Document Naming Rule","filters":[
+        [
+            "document_type","in",[
+               "Vehicle Trip",
+               "Loading Request"
+            ]
+        ]
     ]}
 ]
