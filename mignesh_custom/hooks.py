@@ -230,13 +230,6 @@ fixtures=[
             ]
         ]
     ]},
-    {"dt":"Email Account","filters":[
-        [
-            "name","in",[
-               "Migoo"
-            ]
-        ]
-    ]},
     {"dt":"Notification","filters":[
         [
             "module","in",[
@@ -244,5 +237,4 @@ fixtures=[
             ]
         ]
     ]}
-
 ]
