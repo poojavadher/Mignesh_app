@@ -4,10 +4,10 @@
   "doctype": "Client Script",
   "dt": "Purchase Order",
   "enabled": 1,
-  "modified": "2023-02-24 13:23:57.699900",
+  "modified": "2023-03-01 15:22:53.040135",
   "module": "Mignesh",
   "name": "qty",
-  "script": "frappe.ui.form.on('Purchase Order', {\n    after_save:function(frm){\n        \t\n\t    frm.refresh()\n\t    frm.reload_doc()\n\t   \n\n        \n    },\n\tvalidate: function(frm){\n    var a = 0;\n    $.each(frm.doc.items, function(i, d) {\n            a += d.qty;\n    });\n    frm.set_value(\"pending_quentity\",a);\n    frm.refresh_field(\"pending_quentity\");\n    frm.refresh();\n}\n});\n\n\n\n",
+  "script": "frappe.ui.form.on('Purchase Order', {\n    after_save:function(frm){\n        \t\n\t    frm.refresh()\n\t    frm.reload_doc()\n\t   \n\n        \n    },\n\tvalidate: function(frm){\n    var a = 0;\n    $.each(frm.doc.items, function(i, d) {\n            a += d.qty;\n    });\n    frm.set_value(\"pending_quantity\",a);\n    frm.refresh_field(\"pending_quantity\");\n    frm.refresh();\n}\n});\n\n\n\n",
   "view": "Form"
  },
  {
@@ -15,10 +15,10 @@
   "doctype": "Client Script",
   "dt": "Purchase Invoice",
   "enabled": 1,
-  "modified": "2023-02-24 13:23:57.801238",
+  "modified": "2023-03-01 15:23:06.692469",
   "module": null,
   "name": "purchase invoice",
-  "script": "frappe.ui.form.on('Purchase Invoice', {\n\tafter_save:function(frm) {\n    var purchase = cur_frm.doc.purchase_order;\n\tvar a = frm.doc.pending_qty;\n\tvar b = frm.doc.total_qty;\n\tvar c = a - b;\n\tconsole.log(c);\n\tfrappe.db.set_value('Purchase Order',purchase, 'pending_quentity',c);\n\t}\n});",
+  "script": "frappe.ui.form.on('Purchase Invoice', {\n\tafter_save:function(frm) {\n    var purchase = cur_frm.doc.purchase_order;\n\tvar a = frm.doc.pending_qty;\n\tvar b = frm.doc.total_qty;\n\tvar c = a - b;\n\tconsole.log(c);\n\tfrappe.db.set_value('Purchase Order',purchase, 'pending_quantity',c);\n\t}\n});",
   "view": "Form"
  },
  {
@@ -85,6 +85,28 @@
   "module": null,
   "name": "Fetch Sales order Item",
   "script": "frappe.ui.form.on('Sales Order', {\n\tonload(frm) {\n\t    var po= frm.doc.customer_purchase_order\n\t    console.log(po)\n\t    let pur_ord=po\n\t    \n\t    $.each(pur_ord.items,function(i,d){\n\t       \n\t        var a=d.item_code\n\t        console.log(a)\n\t    })\n\t}\n})",
+  "view": "Form"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Client Script",
+  "dt": "Vehicle Trip",
+  "enabled": 0,
+  "modified": "2023-02-28 18:17:14.703613",
+  "module": null,
+  "name": "update Odomete Value",
+  "script": "frappe.ui.form.on('Vehicle Trip', {\n\tvehical_no:function(frm) {\n\t     var vehicle_trip=frappe.get_last_doc('Vehicle Trip');\n\t     console.log(vehicle_trip);\n\t}\n});",
+  "view": "Form"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Client Script",
+  "dt": "Loading Request",
+  "enabled": 1,
+  "modified": "2023-03-01 10:41:42.198196",
+  "module": "Mignesh",
+  "name": "Fetch Address",
+  "script": "frappe.ui.form.on(\"Loading Request\",\"ship_to_party_name_and_address\",function(frm, cdt, cdn) {\n    \n    if(frm.doc.ship_to_party_name_and_address){\n        return frm.call({\n            method : \"frappe.contacts.doctype.address.address.get_address_display\",\n            args:{\n                \"address_dict\":frm.doc.ship_to_party_name_and_address\n            },\n            callback: function(r){\n                if(r.message)\n                    frm.set_value(\"cutomer_address\", r.message);\n            }\n        });\n    \n    }\n    else{\n        frm.set_value(\"cutomer_address\", \"\");\n    }\n    \n\t\n});",
   "view": "Form"
  }
 ]

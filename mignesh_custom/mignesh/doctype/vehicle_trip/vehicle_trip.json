@@ -198,6 +198,7 @@
    "options": "Currency"
   },
   {
+   "depends_on": "fuel_receipt_received",
    "fieldname": "fual_info_section",
    "fieldtype": "Section Break",
    "label": "Fuel Information"
@@ -316,7 +317,7 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2023-02-28 14:38:38.366729",
+ "modified": "2023-03-01 14:44:45.291715",
  "modified_by": "Administrator",
  "module": "Mignesh",
  "name": "Vehicle Trip",

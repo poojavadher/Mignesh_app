@@ -250,22 +250,32 @@
    "hidden": 0,
    "is_query_report": 0,
    "label": "Reports",
-   "link_count": 1,
+   "link_count": 2,
    "onboard": 0,
    "type": "Card Break"
   },
   {
    "hidden": 0,
-   "is_query_report": 1,
-   "label": "Purchase Analytics",
+   "is_query_report": 0,
+   "label": "Stock Report Location Wise",
    "link_count": 0,
-   "link_to": "Purchase Analytics",
+   "link_to": "Stock Report Location Wise",
+   "link_type": "Report",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 1,
+   "label": "Packing List Wise Material Report",
+   "link_count": 0,
+   "link_to": "Packing List Wise Material Report",
    "link_type": "Report",
    "onboard": 0,
    "type": "Link"
   }
  ],
- "modified": "2023-02-28 16:25:01.511339",
+ "modified": "2023-03-01 15:24:30.449472",
  "modified_by": "Administrator",
  "module": "Mignesh",
  "name": "Logistic",
@@ -279,26 +289,31 @@
  "shortcuts": [
   {
    "color": "Grey",
+   "doc_view": "",
+   "format": "{} Available",
+   "label": "Vehicle",
+   "link_to": "Vehicle",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
    "doc_view": "List",
    "label": "Dashboard",
    "link_to": "Mignesh",
    "type": "Dashboard"
   },
   {
-   "doc_view": "",
-   "label": "Vehicle",
-   "link_to": "Vehicle",
-   "type": "DocType"
-  },
-  {
    "color": "Orange",
    "doc_view": "List",
+   "format": "{} Available",
    "label": "Loading Request",
    "link_to": "Loading Request",
    "type": "DocType"
   },
   {
+   "color": "Green",
    "doc_view": "",
+   "format": "{} Available",
    "label": "Vehicle Trip",
    "link_to": "Vehicle Trip",
    "type": "DocType"

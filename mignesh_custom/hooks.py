@@ -212,8 +212,9 @@ fixtures=[
     "Custom DocPerm",
     {"dt":"Workspace","filters":[
         [
-            "module","in",[
-               "Mignesh"
+            "name","in",[
+               "Logistic",
+               "Buying"
             ]
         ]
     ]},

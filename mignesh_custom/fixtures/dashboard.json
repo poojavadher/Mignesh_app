@@ -24,7 +24,7 @@
     "width": "Full"
    },
    {
-    "chart": "Puchase Analytics",
+    "chart": "Packing List Wise Material",
     "parent": "Mignesh",
     "parentfield": "charts",
     "parenttype": "Dashboard",
@@ -36,7 +36,7 @@
   "doctype": "Dashboard",
   "is_default": 0,
   "is_standard": 0,
-  "modified": "2023-02-28 12:35:00.432440",
+  "modified": "2023-03-01 15:20:00.210484",
   "module": "Mignesh",
   "name": "Mignesh"
  }

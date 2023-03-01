@@ -1,0 +1,75 @@
+{
+ "add_total_row": 0,
+ "columns": [
+  {
+   "fieldname": "item_code",
+   "fieldtype": "Link",
+   "label": "Product",
+   "options": "Item",
+   "width": 200
+  },
+  {
+   "fieldname": "packing",
+   "fieldtype": "Link",
+   "label": "Packing List",
+   "options": "Packing List",
+   "width": 250
+  },
+  {
+   "fieldname": "loading_location",
+   "fieldtype": "Data",
+   "label": "Location",
+   "width": 0
+  },
+  {
+   "fieldname": "product_density",
+   "fieldtype": "Data",
+   "label": "Product Density",
+   "width": 120
+  },
+  {
+   "fieldname": "pending_quantity",
+   "fieldtype": "Data",
+   "label": "Quantity",
+   "width": 0
+  }
+ ],
+ "creation": "2023-03-01 13:45:05.397458",
+ "disabled": 0,
+ "docstatus": 0,
+ "doctype": "Report",
+ "filters": [],
+ "idx": 0,
+ "is_standard": "Yes",
+ "json": "{}",
+ "modified": "2023-03-01 15:27:46.480301",
+ "modified_by": "Administrator",
+ "module": "Mignesh",
+ "name": "Packing List Wise Material Report",
+ "owner": "Administrator",
+ "prepared_report": 0,
+ "query": "select \n    pod.item_code as 'Product',\n    po.packing as \"Packing List\",\n    po.loading_location as 'Stock Location',\n   GROUP_CONCAT(DISTINCT(pod.product_density)) as  'Density (If Applicable)',\n    SUM(po.pending_quantity) as 'Qty'\n    \n  \nfrom \n    `tabPurchase Order` po\n    join `tabPurchase Order Item` pod\non pod.parent=po.name\n\nwhere\npo.docstatus=1\nand\npo.`pending_quantity` >  0\nGROUP BY po.`loading_location`,pod.`item_code`",
+ "ref_doctype": "Purchase Order",
+ "report_name": "Packing List Wise Material Report",
+ "report_type": "Query Report",
+ "roles": [
+  {
+   "role": "Purchase Manager"
+  },
+  {
+   "role": "Purchase User"
+  },
+  {
+   "role": "Stock User"
+  },
+  {
+   "role": "Purchase Order Approver"
+  },
+  {
+   "role": "Projects User"
+  },
+  {
+   "role": "Logistic"
+  }
+ ]
+}

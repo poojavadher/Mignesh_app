@@ -5,7 +5,7 @@
   "chart_name": "Location Wise Stock",
   "chart_type": "Report",
   "color": null,
-  "custom_options": "{\"x_field\": \"loading_location\", \"chart_type\": \"Bar\", \"y_axis_fields\": [{\"idx\": 1, \"__islocal\": true, \"name\": \"row 1\", \"y_field\": \"pending_quentity\", \"color\": \"#449CF0\"}], \"y_fields\": [\"pending_quentity\"], \"colors\": [\"#449CF0\"]}",
+  "custom_options": "{\"x_field\": \"loading_location\", \"chart_type\": \"Bar\", \"y_axis_fields\": [{\"idx\": 1, \"__islocal\": true, \"name\": \"row 1\", \"y_field\": \"pending_quentity\", \"color\": \"#449CF0\"}], \"y_fields\": [\"pending_quantity\"], \"colors\": [\"#449CF0\"]}",
   "docstatus": 0,
   "doctype": "Dashboard Chart",
   "document_type": null,
@@ -15,10 +15,10 @@
   "group_by_based_on": null,
   "group_by_type": "Count",
   "heatmap_year": null,
-  "is_public": 0,
+  "is_public": 1,
   "is_standard": 0,
   "last_synced_on": null,
-  "modified": "2023-02-28 12:55:25.621783",
+  "modified": "2023-03-01 15:57:24.405661",
   "module": "Mignesh",
   "name": "Location Wise Stock",
   "number_of_groups": 0,
@@ -36,11 +36,11 @@
   "x_field": "loading_location",
   "y_axis": [
    {
-    "color": "#449CF0",
+    "color": "#4463F0",
     "parent": "Location Wise Stock",
     "parentfield": "y_axis",
     "parenttype": "Dashboard Chart",
-    "y_field": "pending_quentity"
+    "y_field": "pending_quantity"
    }
   ]
  },
@@ -60,10 +60,10 @@
   "group_by_based_on": null,
   "group_by_type": "Count",
   "heatmap_year": null,
-  "is_public": 0,
+  "is_public": 1,
   "is_standard": 0,
   "last_synced_on": null,
-  "modified": "2023-02-28 12:55:25.592555",
+  "modified": "2023-03-01 15:57:44.766069",
   "module": "Mignesh",
   "name": "Puchase Analytics",
   "number_of_groups": 0,
