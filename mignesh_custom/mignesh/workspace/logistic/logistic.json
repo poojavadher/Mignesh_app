@@ -256,7 +256,7 @@
   },
   {
    "hidden": 0,
-   "is_query_report": 0,
+   "is_query_report": 1,
    "label": "Stock Report Location Wise",
    "link_count": 0,
    "link_to": "Stock Report Location Wise",
@@ -275,7 +275,7 @@
    "type": "Link"
   }
  ],
- "modified": "2023-03-01 15:24:30.449472",
+ "modified": "2023-03-01 18:08:44.402521",
  "modified_by": "Administrator",
  "module": "Mignesh",
  "name": "Logistic",

@@ -8,17 +8,21 @@
  "engine": "InnoDB",
  "field_order": [
   "to",
-  "date",
   "column_break_tf5i",
+  "date",
+  "column_break_9bd4",
   "customer_name_bill_to_party",
-  "ship_to_party_name_and_address",
-  "section_break_zx1m",
-  "explosive_licence_for_storage_no_and_quantity",
-  "ecc_no_range_and_division",
-  "solvent_control_liocense_no_and_qty_of_ship_to_party",
-  "column_break_4rwr",
-  "gst_number",
+  "address",
   "cms_code",
+  "explosive_licence_for_storage_no_and_quantity",
+  "column_break_cbpp",
+  "ship_to_party_name_and_address",
+  "party_address",
+  "section_break_zx1m",
+  "ecc_no_range_and_division",
+  "gst_number",
+  "column_break_4rwr",
+  "solvent_control_liocense_no_and_qty_of_ship_to_party",
   "utr_no",
   "section_break_im4b",
   "loading_request_item",
@@ -145,11 +149,31 @@
   {
    "fieldname": "column_break_o6az",
    "fieldtype": "Column Break"
+  },
+  {
+   "depends_on": "eval:doc.ship_to_party_name_and_address!==''",
+   "fieldname": "party_address",
+   "fieldtype": "Small Text",
+   "label": "Party Address"
+  },
+  {
+   "fieldname": "address",
+   "fieldtype": "Small Text",
+   "label": "Address",
+   "read_only": 1
+  },
+  {
+   "fieldname": "column_break_9bd4",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_cbpp",
+   "fieldtype": "Column Break"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2023-02-27 15:19:12.531349",
+ "modified": "2023-03-01 17:31:38.176908",
  "modified_by": "Administrator",
  "module": "Mignesh",
  "name": "Loading Request",

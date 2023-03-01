@@ -103,10 +103,10 @@
   "doctype": "Client Script",
   "dt": "Loading Request",
   "enabled": 1,
-  "modified": "2023-03-01 10:41:42.198196",
+  "modified": "2023-03-01 16:42:39.427499",
   "module": "Mignesh",
   "name": "Fetch Address",
-  "script": "frappe.ui.form.on(\"Loading Request\",\"ship_to_party_name_and_address\",function(frm, cdt, cdn) {\n    \n    if(frm.doc.ship_to_party_name_and_address){\n        return frm.call({\n            method : \"frappe.contacts.doctype.address.address.get_address_display\",\n            args:{\n                \"address_dict\":frm.doc.ship_to_party_name_and_address\n            },\n            callback: function(r){\n                if(r.message)\n                    frm.set_value(\"cutomer_address\", r.message);\n            }\n        });\n    \n    }\n    else{\n        frm.set_value(\"cutomer_address\", \"\");\n    }\n    \n\t\n});",
+  "script": "frappe.ui.form.on(\"Loading Request\",\"ship_to_party_name_and_address\",function(frm, cdt, cdn) {\n    \n    if(frm.doc.ship_to_party_name_and_address){\n        return frm.call({\n            method : \"frappe.contacts.doctype.address.address.get_address_display\",\n            args:{\n                \"address_dict\":frm.doc.ship_to_party_name_and_address\n            },\n            callback: function(r){\n                if(r.message)\n                    frm.set_value(\"party_address\", r.message);\n            }\n        });\n    \n    }\n    else{\n        frm.set_value(\"party_address\", \"\");\n    }\n    \n\t\n});",
   "view": "Form"
  }
 ]

@@ -382,7 +382,7 @@
     "dependencies": null,
     "hidden": 0,
     "icon": null,
-    "is_query_report": 0,
+    "is_query_report": 1,
     "label": "Stock Report Location Wise",
     "link_count": 0,
     "link_to": "Stock Report Location Wise",
@@ -411,7 +411,7 @@
     "type": "Link"
    }
   ],
-  "modified": "2023-03-01 15:24:30.449472",
+  "modified": "2023-03-01 18:08:44.402521",
   "module": "Mignesh",
   "name": "Logistic",
   "parent_page": "",
@@ -1123,8 +1123,8 @@
     "dependencies": null,
     "hidden": 0,
     "icon": null,
-    "is_query_report": 0,
-    "label": "Purchase StockReport Supplier Wise",
+    "is_query_report": 1,
+    "label": "Purchase Stock Report Supplier Wise",
     "link_count": 0,
     "link_to": "Purchase Stock Report Supplier Wise",
     "link_type": "Report",
@@ -1139,7 +1139,7 @@
     "dependencies": null,
     "hidden": 0,
     "icon": null,
-    "is_query_report": 0,
+    "is_query_report": 1,
     "label": "Stock Location Wise Reports",
     "link_count": 0,
     "link_to": "Stock Report Location Wise",
@@ -1248,7 +1248,7 @@
     "type": "Link"
    }
   ],
-  "modified": "2023-03-01 13:41:54.154940",
+  "modified": "2023-03-01 18:09:18.326442",
   "module": "Buying",
   "name": "Buying",
   "parent_page": "",

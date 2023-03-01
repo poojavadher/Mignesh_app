@@ -1,5 +1,6 @@
 [
  {
+  "address": null,
   "cleaner_name_and_gate_pass_no": null,
   "cms_code": null,
   "customer_name_bill_to_party": "Mignesh",
@@ -15,6 +16,7 @@
   "loading_request_item": [],
   "modified": "2023-02-21 17:14:50.950774",
   "name": "LR-21-MM-00003",
+  "party_address": null,
   "product_receipt_location": null,
   "ship_to_party_name_and_address": "Vimal Constructions-Shipping",
   "solvent_control_liocense_no_and_qty_of_ship_to_party": null,
