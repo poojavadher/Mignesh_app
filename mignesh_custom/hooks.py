@@ -202,13 +202,11 @@ fixtures=[
     "Supplier",
     "Customer",
     "Property Setter",
-    "Loading Request",
     "UOM",
     "Item",
     "Item Group",
     "Location",
     "Packing List",
-    "Vehicle Trip",
     "Custom DocPerm",
     {"dt":"Workspace","filters":[
         [
